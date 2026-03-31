@@ -1,5 +1,6 @@
 # EcommercePython
 Proyecto educativo
+Gonzalo
 mauricio
 Hans Soto
 Victor
