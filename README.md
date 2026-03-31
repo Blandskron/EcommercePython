@@ -11,6 +11,7 @@ Luis pafian
 Javiera Acevedo
 Pamela Delgado
 > ALEX ZAMORANO
+Mauricio Monsálvez
 git clone https://github.com/Blandskron/EcommercePython.git
 cd EcommercePython/
 git branch cargo/nombre
