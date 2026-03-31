@@ -1,5 +1,6 @@
 # EcommercePython
 Proyecto educativo
+Victor
 Luis pafian 
 Javiera Acevedo
 Pamela Delgado
