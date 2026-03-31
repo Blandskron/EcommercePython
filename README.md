@@ -1,5 +1,6 @@
 # EcommercePython
 Proyecto educativo
+guntherbirchmeier
 ux-ui/MattiasRJ
 patricio
 Juan Colman
