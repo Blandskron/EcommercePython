@@ -1,5 +1,6 @@
 # EcommercePython
 Proyecto educativo
+Hans Soto
 Victor
 Luis pafian 
 Javiera Acevedo
