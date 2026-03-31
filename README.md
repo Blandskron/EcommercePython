@@ -1,5 +1,6 @@
 # EcommercePython
 Proyecto educativo
+Luis pafian 
 Javiera Acevedo
 Pamela Delgado
 > ALEX ZAMORANO
