@@ -1,5 +1,6 @@
 # EcommercePython
 Proyecto educativo
+Juan Colman
 Gonzalo
 mauricio
 Hans Soto
