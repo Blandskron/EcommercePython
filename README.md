@@ -1,5 +1,6 @@
 # EcommercePython
 Proyecto educativo
+> ALEX ZAMORANO
 git clone https://github.com/Blandskron/EcommercePython.git
 cd EcommercePython/
 git branch cargo/nombre
