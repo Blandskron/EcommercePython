@@ -62,7 +62,7 @@ Microinteracciones
 Al aumentar cantidad → animación suave
 Al eliminar → fade out
 Al aplicar cupón → check + mensaje
-Loading elegante (no pantallas congeladas
+Loading elegante no pantallas congeladas
 
 
 Una propuesta para hacerse una idea, copiar y pegar en un index.
