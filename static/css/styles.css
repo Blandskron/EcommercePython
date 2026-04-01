@@ -1,1 +1,43 @@
 /* aqui el codigo css para el proyecto de ecommerce */
+.footer {
+    background: #1f2937;
+    color: #f9fafb;
+    padding: 30px 20px;
+    margin-top: 40px;
+    text-align: center;
+    border-top: 12px solid #3b82f6;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer-titulo {
+    margin: 0 0 10px;
+    font-size: 22px;
+}
+
+.footer-texto {
+    margin: 0 0 15px;
+    color: #d1d5db;
+    font-size: 14px;
+}
+
+.footer-links {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: #93c5fd;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
+
+.footer-copy {
+    margin: 0;
+    font-size: 13px;
+    color: #9ca3af;
+}
