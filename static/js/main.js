@@ -1,0 +1,1 @@
+// aqui el codigo js o jquery para el proyecto de ecommerce
