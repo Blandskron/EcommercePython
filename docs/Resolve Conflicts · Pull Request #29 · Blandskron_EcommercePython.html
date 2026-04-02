@@ -1,0 +1,1536 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)https://github.com/Blandskron/EcommercePython/pull/29/conflicts -->
+<html lang="en" class="js-skip-scroll-target-into-view js-focus-visible" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark" data-a11y-animated-images="system" data-a11y-link-underlines="true" data-js-focus-visible="" data-turbo-loaded=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.turbo-progress-bar {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #0076ff;
+  z-index: 2147483647;
+  transition:
+    width 300ms ease-out,
+    opacity 150ms 150ms ease-in;
+  transform: translate3d(0, 0, 0);
+}
+</style><style>
+:root {
+  --fontStack-monospace: "Monaspace Neon", ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace !important;
+}
+</style>
+
+
+
+
+  
+    
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/light-0c8222dcd7a4f9b7.css"><link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/dark-fc6eec18532c3ae0.css"><link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_high_contrast-51c0c6e0c085cc0f.css"><link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind-4dd12c5689d6b012.css"><link data-color-theme="light_colorblind_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind_high_contrast-dfa0c9e22ba6ba2b.css"><link data-color-theme="light_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_tritanopia-9fd9c8859395d1a8.css"><link data-color-theme="light_tritanopia_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_tritanopia_high_contrast-9c32304a2a8ac631.css"><link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_high_contrast-96d7b2bab5a6ae4e.css"><link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind-0c6ca283d4d35cea.css"><link data-color-theme="dark_colorblind_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind_high_contrast-2dc46b4919fae81e.css"><link data-color-theme="dark_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_tritanopia-271332ec9362e8d3.css"><link data-color-theme="dark_tritanopia_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_tritanopia_high_contrast-eb5bb84e91d6d553.css"><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed-f3aa862f2ac7ead2.css"><link data-color-theme="dark_dimmed_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed_high_contrast-206b6b93f856629b.css">
+
+  <style type="text/css">
+    :root {
+      --tab-size-preference: 4;
+    }
+
+    pre, code {
+      tab-size: var(--tab-size-preference);
+    }
+  </style>
+
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/primer-primitives-10bf9dd67e3d70bd.css">
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/primer-0fcd9af82350aeda.css">
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/global-0bd78641c0a1f3e0.css">
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/github-c94ab8d1f22049a8.css">
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/repository-6ec84ae2261fecf8.css">
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/pull-requests-af6e4853bdea0614.css">
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/copilot-code-review-55cc3e968aadadce.css">
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/actions-0e714a98ea09295a.css">
+
+  
+
+  <script src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/xml-552e16f249980692.js.descargar" crossorigin="anonymous"></script><script src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/markdown-a583ee20e82121b9.js.descargar" crossorigin="anonymous"></script><script src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/gfm-ca64aa07bf830254.js.descargar" crossorigin="anonymous"></script><script type="application/json" id="client-env">{"locale":"en","featureFlags":["actions_custom_images_storage_billing_ui_visibility","actions_image_version_event","actions_service_container_command","actions_workflow_language_service_allow_case_function","alternate_user_config_repo","arianotify_comprehensive_migration","batch_suggested_changes","billing_discount_threshold_notification","billing_ui_budget_pagination_enabled","cca_rename","close_pr_side_panel","code_scanning_all_branch_query","code_scanning_dfa_degraded_experience_notice","codemirror_inp_optimizations","codeowners_validation_in_diff","codespaces_prebuild_region_target_update","coding_agent_model_selection","coding_agent_model_selection_all_skus","comment_viewer_copy_raw_markdown","comments_panel_issue_comments","contentful_primer_code_blocks","copilot_agent_image_upload","copilot_agent_snippy","copilot_api_agentic_issue_marshal_yaml","copilot_ask_mode_dropdown","copilot_chat_attach_multiple_images","copilot_chat_clear_model_selection_for_default_change","copilot_chat_disable_model_picker_while_streaming","copilot_chat_enable_tool_call_logs","copilot_chat_explain_error_user_model","copilot_chat_file_redirect","copilot_chat_input_commands","copilot_chat_opening_thread_switch","copilot_chat_reduce_quota_checks","copilot_chat_search_bar_redirect","copilot_chat_selection_attachments","copilot_chat_vision_in_claude","copilot_chat_vision_preview_gate","copilot_code_review_batch_apply_suggestions","copilot_coding_agent_free_users_exp","copilot_coding_agent_task_response","copilot_custom_copilots","copilot_custom_copilots_feature_preview","copilot_duplicate_thread","copilot_extensions_hide_in_dotcom_chat","copilot_extensions_removal_on_marketplace","copilot_features_sql_server_logo","copilot_features_zed_logo","copilot_file_block_ref_matching","copilot_ftp_hyperspace_upgrade_prompt","copilot_icebreakers_experiment_dashboard","copilot_icebreakers_experiment_hyperspace","copilot_immersive_code_block_transition_wrap","copilot_immersive_embedded","copilot_immersive_file_block_transition_open","copilot_immersive_file_preview_keep_mounted","copilot_immersive_job_result_preview","copilot_immersive_layout_routes","copilot_immersive_structured_model_picker","copilot_immersive_task_hyperlinking","copilot_immersive_task_within_chat_thread","copilot_issue_list_show_more","copilot_mc_cli_resume_any_users_task","copilot_mission_control_always_send_integration_id","copilot_mission_control_cli_resume_with_task_id","copilot_mission_control_custom_agent_group","copilot_mission_control_decoupled_mode","copilot_mission_control_decoupled_mode_agent_tooltip","copilot_mission_control_initial_data_spinner","copilot_mission_control_plan_model_picker","copilot_mission_control_post_session_chat_model_picker","copilot_mission_control_rich_plan_ui","copilot_mission_control_scroll_to_bottom_button","copilot_mission_control_task_alive_updates","copilot_mission_control_task_unarchive","copilot_org_policy_page_focus_mode","copilot_premium_request_quotas","copilot_redirect_header_button_to_agents","copilot_resource_panel","copilot_scroll_preview_tabs","copilot_share_active_subthread","copilot_spaces_ga","copilot_spaces_individual_policies_ga","copilot_spaces_pagination","copilot_spark_empty_state","copilot_spark_handle_nil_friendly_name","copilot_swe_agent_hide_model_picker_if_only_auto","copilot_swe_agent_pr_comment_model_picker","copilot_swe_agent_use_subagents","copilot_task_api_github_rest_style","copilot_unconfigured_is_inherited","copilot_usage_metrics_ga","copilot_workbench_slim_line_top_tabs","custom_instructions_file_references","custom_properties_consolidate_default_value_input","dashboard_add_updated_desc","dashboard_indexeddb_caching","dashboard_lists_max_age_filter","dashboard_universe_2025","dashboard_universe_2025_feedback_dialog","dead_click_detection","fgpat_permissions_selector_redesign","flex_cta_groups_mvp","global_nav_react","hide_groups_list_for_few_groups","hyperspace_2025_logged_out_batch_1","hyperspace_2025_logged_out_batch_2","hyperspace_2025_logged_out_batch_3","ipm_global_transactional_message_agents","ipm_global_transactional_message_copilot","ipm_global_transactional_message_issues","ipm_global_transactional_message_prs","ipm_global_transactional_message_repos","ipm_global_transactional_message_spaces","issue_cca_modal_open","issue_cca_visualization","issue_fields_global_search","issue_fields_visibility_indicator","issue_fields_visibility_settings","issues_dashboard_inp_optimization","issues_diff_based_label_updates","issues_expanded_file_types","issues_index_semantic_search","issues_lazy_load_comment_box_suggestions","issues_react_bots_timeline_pagination","issues_react_chrome_container_query_fix","issues_react_include_bots_in_pickers","issues_react_prohibit_title_fallback","issues_react_ui_feedback","issues_search_type_gql","landing_pages_ninetailed","landing_pages_web_vitals_tracking","lifecycle_label_name_updates","load_paginated_threads_on_diff","marketing_pages_search_explore_provider","memex_default_issue_create_repository","memex_live_update_hovercard","memex_mwl_filter_field_delimiter","memex_roadmap_drag_style","merge_status_header_feedback","mission_control_retry_on_401","oauth_authorize_clickjacking_protection","open_agent_session_in_vscode_insiders","open_agent_session_in_vscode_stable","pr_sfv_new_diff_fetch","primer_react_css_has_selector_perf","primer_react_spinner_synchronize_animations","prs_checks_react","prs_conversations_react","prs_docked_side_panel","prs_live_updates_issue_comments","prs_review_summaries_in_side_panel","prx_files","prx_merge_status_button_alt_logic","pull_request_edit_button_redesign","pull_request_files_accurate_size_estimates","pull_request_files_virtualization","pull_request_merge_status_button","pull_request_virtualization_preload_diffs","pulls_sidebar_update","react_blob_overlay","repository_suggester_elastic_search","sample_network_conn_type","secret_scanning_pattern_alerts_link","session_logs_ungroup_reasoning_text","site_features_copilot_universe","site_homepage_collaborate_video","spark_prompt_secret_scanning","spark_server_connection_status","suppress_automated_browser_vitals","viewscreen_sandbox","webp_support","workbench_store_readonly"],"login":"psv1977","copilotApiOverrideUrl":"https://api.individual.githubcopilot.com"}</script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/wp-runtime-77a103bf7d95165f.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/85924-e131bec5f99667e1.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/28839-734cb6d8a7150172.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/34646-edd5528648c197b1.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/environment-774bb29273d50b01.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/runtime-helpers-3bb6f7d6b7a2f531.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/2966-f6796bfd155feae1.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/96232-69d46a31854353d4.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/41013-7a6deee6d6ff15eb.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/51210-3abb7238871a5b29.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/64247-7de91c52a8aca0eb.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/81683-1370179bf9bdc0f0.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/46740-6606b1026a237412.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/53102-f34caec7b425fe9f.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/github-elements-b24035aa51f284b4.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/element-registry-3c4ad8dfb8ffde33.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/react-core-2e47687b4310af0f.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/react-lib-a4cf89fce9a1300a.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/7053-fe40037405b8998b.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/79039-2565b539a6ebc09b.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/61110-93cf7706e5dc8bfa.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/2887-47ac9a4b8862e6bf.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/26533-4df1172b25427069.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/45695-0f7265ae0cee4917.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/86483-92f38323ee870655.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/86659-ee83bc63b54d5ea9.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/60481-19fcf1c5670a41f1.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/46287-a173e8d4423a732c.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/2498-7a413c8209222158.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/61075-c79d53892670e6db.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/89627-fbbd31c43d83e10c.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/49029-32f138b26aa15ad8.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/99328-5e06da57c4622e21.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/behaviors-601e6ef118c0fa96.js.descargar" defer="defer"></script>
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/react-core.d14f70276c05a07b.module.css">
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/4244-d5dcb589fae0ecbf.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/notifications-global-5bff6e56e8ce99b0.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/19262-313c6e4aa6bc1abc.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/13284-8b9feeae4ba8bcad.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/19930-d7474e22a5e73a83.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/codespaces-595fb1a71a7b3ae9.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/19468-fb170efa3b0794b4.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/29534-c5346160093f2b9e.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/diffs-75668387207945a4.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/scanning-dc9db01eacf45e81.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/34140-bd56b738d77cb446.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/code-menu-34c67a8e6616ccae.js.descargar" defer="defer"></script>
+
+
+
+
+
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/7463-f34e26efc84a7578.js.descargar" defer="defer"></script>
+
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/41167-87d9e89a64094cdb.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/32769-329cba91f224b6ee.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/73449-646bf6ea1408fd50.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/70247-2fd8dae41a97f023.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/25164-961089be44fa9f85.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/28819-12c30052d942d130.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/67985-49aafc2cf1f8b6b2.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/62094-358c25913dde0efc.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/9247-4a7c32ab2ef941be.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/22110-bd3905ae268a0602.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/11834-e3717924f4283fac.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/40145-1c5666e94b907f22.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/46148-0e40187c0246d203.js.descargar" defer="defer"></script>
+
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/13107-38f90ea7b208da6b.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/69509-46df2ec4d308cd5c.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/94332-6856b2df9b192c55.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/15835-997312a583989efc.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/42946-86d669f50d936cfd.js.descargar" defer="defer"></script>
+
+
+
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/91894-e3864b3848b044a6.js.descargar" defer="defer"></script>
+
+
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/17513-a682dcf47273d2b3.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/36600-b3024c97643f0102.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/46040-731330b71f5e57a7.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/35644-1ce8dd539d1de346.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/76241-e6081c0688a7ece7.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/73024-85ca5b03dc40dac0.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/96755-8619cf5f811a4353.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/78292-dcdfee09fccba021.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/54888-9b7097d2ff748a17.js.descargar" defer="defer"></script>
+
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/62712-3232e45f9e8d4a2a.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/1097-b805267515cb2087.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/13333-2a2decebccdb5c1f.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/15738-7acf5b21a5f54aea.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/15151-684c0e47023be651.js.descargar" defer="defer"></script>
+
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/61573-7800cd4e7cfe2403.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/40217-37ad0e00494e2616.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/62653-b5fad92fb3c5b665.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/55398-a05cfc75fecf0408.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/27282-8ffa814779f8aa96.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/6537-7024ab9d8f6cdda6.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/16449-af18fbdb8c6024f8.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/54990-adbf64c5251a4ce5.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/39120-496358bbd7bdbefc.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/48882-117f2b1377690c56.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/27301-ca5acbebc7670fc2.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/54264-31e2ca0ba3daeb9a.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/92609-84ee33a1b26bbceb.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/46099-72ec9c4c21b86058.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/3761-48b269f6afb31986.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/75773-ef10b13845d64823.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/92051-ef94e9cf236f3f9c.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/54653-6565232ce3e2bb4a.js.descargar" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/pull-requests-6fe83e033f310944.js.descargar" defer="defer"></script>
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/primer-react-css.a2f41fc3ac05567f.module.css">
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/76241.8aaf94b279ad9c8e.module.css">
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/78292.b7c22a76131b003c.module.css">
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/39120.edccad0ce84a0d34.module.css">
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/54264.31d2d551f45d4e87.module.css">
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/46099.ad0545b24a8a40e6.module.css">
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/92051.a0f8c7617b8a4dc0.module.css">
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/pull-requests.52617c5f65b2dd37.module.css">
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+
+    
+  
+
+
+  
+
+
+    
+
+
+  
+  
+
+  
+  
+
+    
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+    
+
+  
+
+    
+
+    
+
+      
+
+      
+
+    
+    
+    
+
+      
+  
+  
+
+
+      
+      
+
+      
+
+      
+
+
+      
+      
+      
+
+        
+
+
+  <meta http-equiv="x-pjax-version" content="b1449fe3fe847523e49d5bfc94ac19dcbbf83a7aa6af3da3f606e3f901e928d9" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-csp-version" content="568c098497d98702bac1642a2a853732a047a6ced28eabd3e15d50041a890235" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-css-version" content="20fcfbab4ff75c6eb07df12ea46a99278a956a46f28b2d7e4e7233e3a2a3251e" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-js-version" content="7fefac43f4ea5d3afdb85327246183c76f4c442dda096dbf2824c070b2605bea" data-turbo-track="reload">
+
+  
+
+      
+
+    
+
+  
+
+  
+
+
+
+    
+
+    
+  
+
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+
+
+
+  
+  
+
+  
+
+  <link rel="stylesheet" type="text/css" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/81758.c3d0cf69fea2352a.module.css" crossorigin="anonymous"><link rel="stylesheet" type="text/css" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/38963.f70dfea92b138b01.module.css" crossorigin="anonymous"><link rel="stylesheet" type="text/css" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/10973.2f5cfee353d76041.module.css" crossorigin="anonymous"><link rel="stylesheet" type="text/css" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/53839.52201ac8c146881f.module.css" crossorigin="anonymous"><style id="ms-consent-banner-main-styles">.w8hcgFksdo30C8w-bygqu{color:#000}.ydkKdaztSS0AeHWIeIHsQ a{color:#0067B8}.erL690_8JwUW-R4bJRcfl{background-color:#EBEBEB;border:none;color:#000}.erL690_8JwUW-R4bJRcfl:enabled:hover{color:#000;background-color:#DBDBDB;box-shadow:0px 4px 10px rgba(0,0,0,0.25);border:none}.erL690_8JwUW-R4bJRcfl:enabled:focus{background-color:#DBDBDB;box-shadow:0px 4px 10px rgba(0,0,0,0.25);border:2px solid #000}.erL690_8JwUW-R4bJRcfl:disabled{opacity:1;color:rgba(0,0,0,0.2);background-color:rgba(0,0,0,0.2);border:none}._1zNQOqxpBFSokeCLGi_hGr{border:none;background-color:#0067B8;color:#fff}._1zNQOqxpBFSokeCLGi_hGr:enabled:hover{color:#fff;background-color:#0067B8;box-shadow:0px 4px 10px rgba(0,0,0,0.25);border:none}._1zNQOqxpBFSokeCLGi_hGr:enabled:focus{background-color:#0067B8;box-shadow:0px 4px 10px rgba(0,0,0,0.25);border:2px solid #000}._1zNQOqxpBFSokeCLGi_hGr:disabled{opacity:1;color:rgba(0,0,0,0.2);background-color:rgba(0,120,215,0.2);border:none}._23tra1HsiiP6cT-Cka-ycB{position:relative;display:flex;z-index:9999;width:100%;background-color:#F2F2F2;justify-content:space-between;text-align:left}div[dir="rtl"]._23tra1HsiiP6cT-Cka-ycB{text-align:right}._1Upc2NjY8AlDn177YoVj0y{margin:0;padding-left:5%;padding-top:8px;padding-bottom:8px}div[dir="rtl"] ._1Upc2NjY8AlDn177YoVj0y{margin:0;padding:8px 5% 8px 0;float:none}._23tra1HsiiP6cT-Cka-ycB svg{fill:none;max-width:none;max-height:none}._1V_hlU-7jdtPiooHMu89BB{display:table-cell;padding:12px;width:24px;height:24px;font-family:Segoe UI, SegoeUI, Arial, sans-serif;font-style:normal;font-weight:normal;font-size:24px;line-height:0}.f6QKJD7fhSbnJLarTL-W-{display:table-cell;vertical-align:middle;padding:0;font-family:Segoe UI, SegoeUI, Arial, sans-serif;font-style:normal;font-weight:normal;font-size:13px;line-height:16px}.f6QKJD7fhSbnJLarTL-W- a{text-decoration:underline}._2j0fmugLb1FgYz6KPuB91w{display:inline-block;margin-left:5%;margin-right:5%;min-width:40%;min-width:calc((150px + 3 * 4px) * 2 + 150px);min-width:-webkit-fit-content;min-width:-moz-fit-content;min-width:fit-content;align-self:center;position:relative}._1XuCi2WhiqeWRUVp3pnFG3{margin:4px;padding:5px;min-width:150px;min-height:36px;vertical-align:top;cursor:pointer;font-family:Segoe UI, SegoeUI, Arial, sans-serif;font-style:normal;font-weight:normal;font-size:15px;line-height:20px;text-align:center}._1XuCi2WhiqeWRUVp3pnFG3:focus{box-sizing:border-box}._1XuCi2WhiqeWRUVp3pnFG3:disabled{cursor:not-allowed}._2bvsb3ubApyZ0UGoQA9O9T{display:block;position:fixed;z-index:10000;top:0;left:0;width:100%;height:100%;background-color:rgba(255,255,255,0.6);overflow:auto;text-align:left}div[dir="rtl"]._2bvsb3ubApyZ0UGoQA9O9T{text-align:right}div[dir="rtl"] ._2bvsb3ubApyZ0UGoQA9O9T{left:auto;right:0}.AFsJE948muYyzCMktdzuk{position:relative;top:8%;margin-bottom:40px;margin-left:auto;margin-right:auto;box-sizing:border-box;width:640px;background-color:#fff;border:1px solid #0067B8}._3kWyBRbW_dgnMiEyx06Fu4{float:right;z-index:1;margin:2px;padding:12px;border:none;cursor:pointer;font-family:Segoe UI, SegoeUI, Arial, sans-serif;font-style:normal;font-weight:normal;font-size:13px;line-height:13px;display:flex;align-items:center;text-align:center;color:#666;background-color:#fff}div[dir="rtl"] ._3kWyBRbW_dgnMiEyx06Fu4{margin:2px;padding:12px;float:left}.uCYvKvHXrhjNgflv1VqdD{position:static;margin-top:36px;margin-left:36px;margin-right:36px}._17pX1m9O_W--iZbDt3Ta5r{margin-top:0;margin-bottom:12px;font-family:Segoe UI, SegoeUI, Arial, sans-serif;font-style:normal;font-weight:600;font-size:20px;line-height:24px;text-transform:none}._1kBkHQ1V1wu3kl-YcLgUr6{height:446px;overflow:auto}._20_nXDf6uFs9Q6wxRXG-I-{margin-top:0;font-family:Segoe UI, SegoeUI, Arial, sans-serif;font-style:normal;font-weight:normal;font-size:15px;line-height:20px}._20_nXDf6uFs9Q6wxRXG-I- a{text-decoration:underline}dl._2a0NH_GDQEQe5Ynfo7suVH{margin-top:36px;margin-bottom:0;padding:0;list-style:none;text-transform:none}dt._3j_LCPv7fyXv3A8FIXVwZ4{margin-top:20px;float:none;font-family:Segoe UI, SegoeUI, Arial, sans-serif;font-style:normal;font-weight:600;font-size:18px;line-height:24px;list-style:none}.k-vxTGFbdq1aOZB2HHpjh{margin:0;padding:0;border:none}._2Bucyy75c_ogoU1g-liB5R{margin:0;padding:0;border-bottom:none;font-family:Segoe UI, SegoeUI, Arial, sans-serif;font-style:normal;font-weight:600;font-size:18px;line-height:24px;text-transform:none}._63gwfzV8dclrsl2cfd90r{display:inline-block;margin-top:0;margin-bottom:13px;font-family:Segoe UI, SegoeUI, Arial, sans-serif;font-style:normal;font-weight:normal;font-size:15px;line-height:20px}._1l8wM_4mRYGz3Iu7l3BZR7{display:block}._2UE03QS02aZGkslegN_F-i{display:inline-block;position:relative;left:5px;margin-bottom:13px;margin-right:34px;padding:3px}div[dir="rtl"] ._2UE03QS02aZGkslegN_F-i{margin:0 0 13px 34px;padding:3px;float:none}div[dir="rtl"] ._2UE03QS02aZGkslegN_F-i{left:auto;right:5px}._23tra1HsiiP6cT-Cka-ycB *::before,._2bvsb3ubApyZ0UGoQA9O9T *::before,._23tra1HsiiP6cT-Cka-ycB *::after,._2bvsb3ubApyZ0UGoQA9O9T *::after{box-sizing:inherit}._1HSFn0HzGo6w4ADApV8-c4{outline:2px solid rgba(0,0,0,0.8)}input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2{display:inline-block;position:relative;margin-top:0;margin-left:0;margin-right:0;height:0;width:0;border-radius:0;cursor:pointer;outline:none;box-sizing:border-box;-webkit-appearance:none;-moz-appearance:none;appearance:none}input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2+label::before{display:block;position:absolute;top:5px;left:3px;height:19px;width:19px;content:"";border-radius:50%;border:1px solid #000;background-color:#fff}div[dir="rtl"] input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2+label::before{left:auto;right:3px}input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2:not(:disabled)+label:hover::before{border:1px solid #0067B8}input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2:not(:disabled)+label:hover::after{display:block;position:absolute;top:10px;left:8px;height:9px;width:9px;content:"";border-radius:50%;background-color:rgba(0,0,0,0.8)}div[dir="rtl"] input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2:not(:disabled)+label:hover::after{left:auto;right:8px}input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2:not(:disabled)+label:focus::before{border:1px solid #0067B8}input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2:not(:disabled)+label:focus::after{display:block;position:absolute;top:10px;left:8px;height:9px;width:9px;content:"";border-radius:50%;background-color:#000}div[dir="rtl"] input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2:not(:disabled)+label:focus::after{left:auto;right:8px}input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2:checked+label::after{display:block;position:absolute;top:10px;left:8px;height:9px;width:9px;content:"";border-radius:50%;background-color:#000}div[dir="rtl"] input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2:checked+label::after{left:auto;right:8px}input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2:disabled+label{cursor:not-allowed}input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2:disabled+label::before{border:1px solid rgba(0,0,0,0.2);background-color:rgba(0,0,0,0.2)}._3RJzeL3l9Rl_lAQEm6VwdX{display:block;position:static;float:right;margin-top:0;margin-bottom:0;margin-left:19px;margin-right:0;padding-top:0;padding-bottom:0;padding-left:8px;padding-right:0;width:80%;width:calc(100% - 19px);font-family:Segoe UI, SegoeUI, Arial, sans-serif;font-style:normal;font-weight:normal;font-size:15px;line-height:20px;text-transform:none;cursor:pointer;box-sizing:border-box}div[dir="rtl"] ._3RJzeL3l9Rl_lAQEm6VwdX{margin:0 19px 0 0;padding:0 8px 0 0;float:left}.nohp3sIG12ZBhzcMnPala{margin-top:20px;margin-bottom:48px}._2uhaEsmeotZ3P-M0AXo2kF{padding:0;width:278px;height:36px;cursor:pointer;font-family:Segoe UI, SegoeUI, Arial, sans-serif;font-style:normal;font-weight:normal;font-size:15px;line-height:20px;text-align:center}._2uhaEsmeotZ3P-M0AXo2kF:focus{box-sizing:border-box}._2uhaEsmeotZ3P-M0AXo2kF:disabled{cursor:not-allowed}._3tOu1FJ59c_xz_PmI1lKV5{float:right;padding:0;width:278px;height:36px;cursor:pointer;font-family:Segoe UI, SegoeUI, Arial, sans-serif;font-style:normal;font-weight:normal;font-size:15px;line-height:20px;text-align:center}._3tOu1FJ59c_xz_PmI1lKV5:focus{box-sizing:border-box}._3tOu1FJ59c_xz_PmI1lKV5:disabled{cursor:not-allowed}div[dir="rtl"] ._3tOu1FJ59c_xz_PmI1lKV5{margin:0;padding:0;float:left}@media only screen and (max-width: 768px){._2j0fmugLb1FgYz6KPuB91w,._1Upc2NjY8AlDn177YoVj0y{padding-top:8px;padding-bottom:12px;padding-left:3.75%;padding-right:3.75%;margin:0;width:92.5%}._23tra1HsiiP6cT-Cka-ycB{display:block}._1XuCi2WhiqeWRUVp3pnFG3{margin-bottom:8px;margin-left:0;margin-right:0;width:100%}._2bvsb3ubApyZ0UGoQA9O9T{overflow:hidden}.AFsJE948muYyzCMktdzuk{top:1.8%;width:93.33%;height:96.4%;overflow:hidden}.uCYvKvHXrhjNgflv1VqdD{margin-top:24px;margin-left:24px;margin-right:24px;height:100%}._1kBkHQ1V1wu3kl-YcLgUr6{height:62%;height:calc(100% - 188px);min-height:50%}._2uhaEsmeotZ3P-M0AXo2kF{width:100%}._3tOu1FJ59c_xz_PmI1lKV5{margin-bottom:12px;margin-left:0;width:100%}div[dir="rtl"] ._3tOu1FJ59c_xz_PmI1lKV5{margin:0 0 12px 0;padding:0;float:none}}@media only screen and (max-width: 768px) and (orientation: landscape), only screen and (max-height: 260px), only screen and (max-width: 340px){.AFsJE948muYyzCMktdzuk{overflow:auto}}@media only screen and (max-height: 260px), only screen and (max-width: 340px){._1XuCi2WhiqeWRUVp3pnFG3{min-width:0}._3kWyBRbW_dgnMiEyx06Fu4{padding:3%}.uCYvKvHXrhjNgflv1VqdD{margin-top:3%;margin-left:3%;margin-right:3%}._17pX1m9O_W--iZbDt3Ta5r{margin-bottom:3%}._1kBkHQ1V1wu3kl-YcLgUr6{height:calc(79% - 64px)}.nohp3sIG12ZBhzcMnPala{margin-top:5%;margin-bottom:10%}._3tOu1FJ59c_xz_PmI1lKV5{margin-bottom:3%}div[dir="rtl"] ._3tOu1FJ59c_xz_PmI1lKV5{margin:0 0 3% 0;padding:0;float:none}}
+</style><style type="text/css" id="ms-consent-banner-theme-styles">._23tra1HsiiP6cT-Cka-ycB {
+            background-color: #24292f !important;
+        }.w8hcgFksdo30C8w-bygqu {
+            color: #ffffff !important;
+        }.ydkKdaztSS0AeHWIeIHsQ a {
+            color: #d8b9ff !important;
+        }._2bvsb3ubApyZ0UGoQA9O9T {
+            background-color: rgba(23, 23, 23, 0.8) !important;
+        }.AFsJE948muYyzCMktdzuk {
+            background-color: #24292f !important;
+            border: 1px solid #d8b9ff !important;
+        }._3kWyBRbW_dgnMiEyx06Fu4 {
+            color: #d8b9ff !important;
+            background-color: #24292f !important;
+        }._1zNQOqxpBFSokeCLGi_hGr {
+            border: 1px solid #ffffff !important;
+            background-color: #ffffff !important;
+            color: #1f2328 !important;
+        }._1zNQOqxpBFSokeCLGi_hGr:enabled:hover {
+            color: #1f2328 !important;
+            background-color: #d8b9ff !important;
+            box-shadow: none !important;
+            border: 1px solid transparent !important;
+        }._1zNQOqxpBFSokeCLGi_hGr:enabled:focus {
+            background-color: #d8b9ff !important;
+            box-shadow: none !important;
+            border: 2px solid #ffffff !important;
+        }._1zNQOqxpBFSokeCLGi_hGr:disabled {
+            opacity: 0.5 !important;
+            color: #1f2328 !important;
+            background-color: #ffffff !important;
+            border: 1px solid transparent !important;
+        }.erL690_8JwUW-R4bJRcfl {
+            border: 1px solid #eaeef2 !important;
+            background-color: #32383f !important;
+            color: #ffffff !important;
+        }.erL690_8JwUW-R4bJRcfl:enabled:hover {
+            color: #ffffff !important;
+            background-color: #24292f !important;
+            box-shadow: none !important;
+            border: 1px solid #ffffff !important;
+        }.erL690_8JwUW-R4bJRcfl:enabled:focus {
+            background-color: #24292f !important;
+            box-shadow: none !important;
+            border: 2px solid #6e7781 !important;
+        }.erL690_8JwUW-R4bJRcfl:disabled {
+            opacity: 0.5 !important;
+            color: #ffffff !important;
+            background-color: #424a53 !important;
+            border: 1px solid #6e7781 !important;
+        }input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2 + label::before {
+            border: 1px solid #d8b9ff !important;
+            background-color: #24292f !important;
+        }._1HSFn0HzGo6w4ADApV8-c4 {
+            outline: 2px solid #ffffff !important;
+        }input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2:checked + label::after {
+            background-color: #d8b9ff !important;
+        }input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2 + label:hover::before {
+            border: 1px solid #ffffff !important;
+        }input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2 + label:hover::after {
+            background-color: #ffffff !important;
+        }input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2 + label:focus::before {
+            border: 1px solid #ffffff !important;
+        }input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2 + label:focus::after {
+            background-color: #d8b9ff !important;
+        }input[type="radio"]._1dp8Vp5m3HwAqGx8qBmFV2:disabled + label::before {
+            border: 1px solid rgba(227, 227, 227, 0.2) !important;
+            background-color: rgba(227, 227, 227, 0.2) !important;
+        }</style><link rel="stylesheet" type="text/css" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/61975.bf2bb705802183ac.module.css" crossorigin="anonymous"><link rel="stylesheet" type="text/css" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/26107.60b579873add8b9f.module.css" crossorigin="anonymous"><link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/editor.cb1d0887d56adfa9.module.css"><link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/code-2d31826944fd3be8.css"><script type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/primer-react-72d2ec7521017972.js.descargar"></script><script type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/octicons-react-a181826f33dcd4d8.js.descargar"></script><script type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/37869-a873e81f0fcb98e2.js.descargar"></script><script type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/15272-00d6ef52b0f88c77.js.descargar"></script><script type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/50938-5b5d5a0255a1f741.js.descargar"></script><script type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/46502-ee4e70db1b782857.js.descargar"></script><script type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/40752-779dd001715048af.js.descargar"></script><script type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/3624-9329741a7029c94d.js.descargar"></script><script type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/66231-1e6cc99727940110.js.descargar"></script><script type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/26497-3db8876731818fda.js.descargar"></script><script type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/editor-c18e9668ff4def9c.js.descargar"></script><script type="module" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/pull-requests-list-ffe19ad4bde5e98d.js.descargar"></script><link rel="dns-prefetch" href="https://github.githubassets.com/"><link rel="dns-prefetch" href="https://avatars.githubusercontent.com/"><link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com/"><link rel="dns-prefetch" href="https://user-images.githubusercontent.com/"><link rel="preconnect" href="https://github.githubassets.com/" crossorigin=""><link rel="preconnect" href="https://avatars.githubusercontent.com/"><title>Resolve Conflicts · Pull Request #29 · Blandskron/EcommercePython</title><meta name="fetch-nonce" content="v2:d9a843b4-bbe2-944c-5811-a18c127f9fce"><meta name="current-catalog-service-hash" content="ae870bc5e265a340912cde392f23dad3671a0a881730ffdadd82f2f57d81641b"><link rel="assets" href="https://github.githubassets.com/"><meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I"><meta name="octolytics-url" content="https://collector.github.com/github/collect"><meta name="octolytics-actor-id" content="165965485"><meta name="octolytics-actor-login" content="psv1977"><meta name="octolytics-actor-hash" content="2d36e59583bb5163f9d91b2e55c84cf0c4aba868a7df6b9cf596dc011d0ad238"><meta name="user-login" content="psv1977"><link rel="sudo-modal" href="https://github.com/sessions/sudo_modal"><meta name="viewport" content="width=device-width"><meta name="description" content="Proyecto educativo. Contribute to Blandskron/EcommercePython development by creating an account on GitHub."><link rel="search" type="application/opensearchdescription+xml" href="https://github.com/opensearch.xml" title="GitHub"><link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub"><meta property="fb:app_id" content="1401488693436528"><meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/_view_fragments/voltron/pull_requests/show/Blandskron/EcommercePython/29/pull_request_layout"><meta name="twitter:image" content="https://opengraph.githubassets.com/5bfc8144dfacae818c65ba93104f552fa6b3671fbdca0a491a0b37fa87b1f1dc/Blandskron/EcommercePython/pull/29"><meta name="twitter:site" content="@github"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Agregando fotos de referencia UX a la Carpeta tecnica by psv1977 · Pull Request #29 · Blandskron/EcommercePython"><meta name="twitter:description" content="Ejemplos de UX/UI para el equipo"><meta property="og:image" content="https://opengraph.githubassets.com/5bfc8144dfacae818c65ba93104f552fa6b3671fbdca0a491a0b37fa87b1f1dc/Blandskron/EcommercePython/pull/29"><meta property="og:image:alt" content="Ejemplos de UX/UI para el equipo"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="600"><meta property="og:site_name" content="GitHub"><meta property="og:type" content="object"><meta property="og:title" content="Agregando fotos de referencia UX a la Carpeta tecnica by psv1977 · Pull Request #29 · Blandskron/EcommercePython"><meta property="og:url" content="https://github.com/Blandskron/EcommercePython/pull/29"><meta property="og:description" content="Ejemplos de UX/UI para el equipo"><meta property="og:author:username" content="psv1977"><link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/165965485/ws?session=eyJ2IjoiVjMiLCJ1IjoxNjU5NjU0ODUsInMiOjIwMzM2MTc2MjIsImMiOjc4NTEwMTk3MiwidCI6MTc3NTEzODQ5MX0=--f8efd6b7cf593adb0bede03f741aebfbb176ee6a8c95f769206f7391f2e13372" data-refresh-url="/_alive" data-session-id="2d68b22c015bff44b0ca62e29dd74a48515525cb8fcf8a0e8cf01158617d16d9"><link rel="shared-web-socket-src" href="https://github.com/assets-cdn/worker/socket-worker-7c82e8f232ff0383.js"><link rel="service-worker-src" href="https://github.com/assets-cdn/worker/service-worker-1ba677711c78435f.js?current_user=psv1977&amp;errors_url=https%3A%2F%2Fapi.github.com%2F_private%2Fbrowser%2Ferrors&amp;release=a9e48b475fa5481a0fe6d331254f487af119be69&amp;actor_id=165965485&amp;is_staff=false&amp;analytics_collector_url=https%3A%2F%2Fcollector.github.com%2Fgithub%2Fcollect"><meta name="hostname" content="github.com"><meta name="keyboard-shortcuts-preference" content="all"><meta name="hovercards-preference" content="true"><meta name="announcement-preference-hovercard" content="true"><meta name="expected-hostname" content="github.com"><meta data-hydrostats="publish"><meta name="go-import" content="github.com/Blandskron/EcommercePython git https://github.com/Blandskron/EcommercePython.git"><meta name="octolytics-dimension-user_id" content="93203724"><meta name="octolytics-dimension-user_login" content="Blandskron"><meta name="octolytics-dimension-repository_id" content="1196664522"><meta name="octolytics-dimension-repository_nwo" content="Blandskron/EcommercePython"><meta name="octolytics-dimension-repository_public" content="true"><meta name="octolytics-dimension-repository_is_fork" content="false"><meta name="octolytics-dimension-repository_network_root_id" content="1196664522"><meta name="octolytics-dimension-repository_network_root_nwo" content="Blandskron/EcommercePython"><meta name="turbo-body-classes" content="logged-in env-production page-responsive"><meta name="disable-turbo" content="false"><meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats"><meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors"><meta name="release" content="a9e48b475fa5481a0fe6d331254f487af119be69"><meta name="ui-target" content="full"><link rel="mask-icon" href="https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg" color="#000000"><link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon-dark.png"><link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon-dark.svg" data-base-href="https://github.githubassets.com/favicons/favicon"><meta name="theme-color" content="#1e2327"><meta name="color-scheme" content="light dark"><meta name="msapplication-TileImage" content="/windows-tile.png"><meta name="msapplication-TileColor" content="#ffffff"><link rel="manifest" href="https://github.com/manifest.json" crossorigin="use-credentials"><meta name="route-pattern" content="/:user_id/:repository/pull/:id/conflicts(.:format)" data-turbo-transient=""><meta name="route-controller" content="pull_requests" data-turbo-transient=""><meta name="route-action" content="resolve_conflicts" data-turbo-transient=""><meta name="selected-link" value="repo_pulls" data-turbo-transient=""><meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/pull_requests/resolve_conflicts" data-turbo-transient=""><meta name="request-id" content="E411:2EA99C:C2DBF8:E51AB4:69CE76C3" data-turbo-transient=""><meta name="html-safe-nonce" content="21a7f56253ef8f35d69b8d305430a6dcffa4aa39c50b98f5debdd125c48239fc" data-turbo-transient=""><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9CbGFuZHNrcm9uL0Vjb21tZXJjZVB5dGhvbi9wdWxsLzI5IiwicmVxdWVzdF9pZCI6IkU0MTE6MkVBOTlDOkMyREJGODpFNTFBQjQ6NjlDRTc2QzMiLCJ2aXNpdG9yX2lkIjoiNjMzMTMzMjE0MDMwMjM1Mjk5MSIsInJlZ2lvbl9lZGdlIjoiYnJhemlsc291dGgiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-turbo-transient=""><meta name="visitor-hmac" content="e81461022fdbaf34b4e99258d430c0d60297eb558d2c8832ed1486698b57ab12" data-turbo-transient=""><meta name="github-keyboard-shortcuts" content="repository,pull-request-list,pull-request-conversation,pull-request-files-changed,copilot" data-turbo-transient=""><meta name="hovercard-subject-tag" content="repository:1196664522" data-turbo-transient=""><meta name="turbo-cache-control" content="no-preview" data-turbo-transient=""></head>
+
+  <body class="logged-in env-production page-responsive full-width" style="word-wrap: break-word;" data-dialog-scroll-optimized="">
+    <div data-turbo-body="" class="logged-in env-production page-responsive full-width" style="word-wrap: break-word;">
+      <div id="__primerPortalRoot__" role="region" style="z-index: 1000; position: absolute; width: 100%;" data-turbo-permanent=""></div>
+      
+
+    <div class="position-relative header-wrapper js-header-wrapper ">
+      <a href="https://github.com/Blandskron/EcommercePython/pull/29/conflicts#start-of-content" data-skip-target-assigned="false" class="tmp-p-3 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
+
+      <span data-view-component="true" class="progress-pjax-loader Progress position-fixed width-full">
+    <span style="width: 0%;" data-view-component="true" class="Progress-item progress-pjax-loader-bar left-0 top-0 color-bg-accent-emphasis"></span>
+</span>      
+      
+      <link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/keyboard-shortcuts-dialog.ea2b62f533dc9058.module.css">
+
+<react-partial partial-name="keyboard-shortcuts-dialog" data-ssr="false" data-attempted-ssr="false" data-react-profiling="false" data-catalyst="" class="loaded">
+  
+  <script type="application/json" data-target="react-partial.embeddedData">{"props":{"docsUrl":"https://docs.github.com/get-started/accessibility/keyboard-shortcuts"}}</script>
+  <div data-target="react-partial.reactRoot"><div class="d-none"></div><script type="application/json" id="__PRIMER_DATA__r_0___">{"resolvedServerColorMode":"night"}</script></div>
+</react-partial>
+
+
+
+
+
+      
+
+          
+
+                  <link crossorigin="anonymous" media="all" rel="stylesheet" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/global-nav-bar.792380d31e5ace14.module.css">
+
+<react-partial partial-name="global-nav-bar" data-ssr="true" data-attempted-ssr="true" data-react-profiling="false" data-catalyst="" class="loaded">
+  
+  <script type="application/json" data-target="react-partial.embeddedData">{"props":{"contextRegion":{"crumbs":[{"crumb_type":"user","label":"Blandskron","is_root":false,"href":"/Blandskron"},{"crumb_type":"repository","label":"EcommercePython","is_root":false,"href":"/Blandskron/EcommercePython"}],"localNavigation":[{"id":"code","icon":"code","label":"Code","href":"/Blandskron/EcommercePython","selectedLinks":["repo_source","repo_downloads","repo_commits","repo_releases","repo_tags","repo_branches","repo_packages","repo_deployments","repo_attestations"],"popoverTarget":false,"commandId":"repositories:go-to-code","reactNav":{"appTarget":"code-view","anchor":"code-view-repo-link"},"turboNav":{"frame":"repo-content-turbo-frame"}},{"id":"issues","icon":"issue-opened","label":"Issues","href":"/Blandskron/EcommercePython/issues","selectedLinks":["repo_issues","repo_labels","repo_milestones"],"count":1,"popoverTarget":false,"commandId":"repositories:go-to-issues","reactNav":{"appTarget":"issues-react","anchor":null},"turboNav":{"frame":"repo-content-turbo-frame"}},{"id":"pull-requests","icon":"git-pull-request","label":"Pull requests","href":"/Blandskron/EcommercePython/pulls","selectedLinks":["repo_pulls","checks"],"count":1,"popoverTarget":false,"commandId":"repositories:go-to-pull-requests","reactNav":{"appTarget":null,"anchor":null},"turboNav":{"frame":"repo-content-turbo-frame"}},{"id":"actions","icon":"play","label":"Actions","href":"/Blandskron/EcommercePython/actions","selectedLinks":["repo_actions"],"popoverTarget":false,"commandId":"repositories:go-to-actions","reactNav":{"appTarget":null,"anchor":null},"turboNav":{"frame":"repo-content-turbo-frame"}},{"id":"projects","icon":"table","label":"Projects","href":"/Blandskron/EcommercePython/projects","selectedLinks":["repo_projects","new_repo_project","repo_project"],"popoverTarget":false,"commandId":"repositories:go-to-projects","reactNav":{"appTarget":null,"anchor":null},"turboNav":{"frame":"repo-content-turbo-frame"}},{"id":"wiki","icon":"book","label":"Wiki","href":"/Blandskron/EcommercePython/wiki","selectedLinks":["repo_wiki"],"popoverTarget":false,"commandId":"repositories:go-to-wiki","reactNav":{"appTarget":null,"anchor":null},"turboNav":{"frame":"repo-content-turbo-frame"}},{"id":"security-and-quality","icon":"shield","label":"Security and quality","href":"/Blandskron/EcommercePython/security","selectedLinks":["security","overview","alerts","policy","token_scanning","code_scanning"],"count":0,"popoverTarget":false,"commandId":"repositories:go-to-security","reactNav":{"appTarget":null,"anchor":null},"turboNav":{"frame":"repo-content-turbo-frame"}},{"id":"insights","icon":"graph","label":"Insights","href":"/Blandskron/EcommercePython/pulse","selectedLinks":["repo_graphs","repo_contributors","dependency_graph","dependabot_updates","pulse","people","community"],"popoverTarget":false,"commandId":"repositories:go-to-insights","reactNav":{"appTarget":null,"anchor":null},"turboNav":{"frame":"repo-content-turbo-frame"}},{"id":"settings","icon":"gear","label":"Settings","href":"/Blandskron/EcommercePython/settings","selectedLinks":["code_review_limits","code_quality","codespaces_repository_settings","collaborators","custom_tabs","github_models_repo_settings","hooks","integration_installations","interaction_limits","issue_template_editor","key_links_settings","license_policy","notifications","repo_announcements","repo_branch_settings","repo_custom_properties","repo_keys_settings","repo_pages_settings","repo_protected_tags_settings","repo_rule_insights","repo_rule_insights_dashboard","repo_rules_bypass_requests","repo_rulesets","repo_settings_copilot_coding_guidelines","repo_settings_copilot_content_exclusion","repo_settings_copilot_swe_agent","repo_settings","reported_content","repository_actions_settings_add_new_runner","repository_actions_settings_general","repository_actions_settings_runner_details","repository_actions_settings_runners","repository_actions_settings","repository_actions_settings_policies","repository_actions_settings_oidc_configuration","repository_environments","role_details","secrets_settings_actions","secrets_settings_agents","secrets_settings_codespaces","secrets_settings_dependabot","secrets","security_analysis","security_products"],"popoverTarget":false,"commandId":"repositories:go-to-settings","reactNav":{"appTarget":null,"anchor":null},"turboNav":{"frame":"repo-content-turbo-frame"}}],"localNavigationUpdateChannel":"eyJjIjoicmVwbzoxMTk2NjY0NTIyOnVzZXI6MTY1OTY1NDg1OnNldHRpbmdzIiwidCI6MTc3NTEzODQ5MX0=--bdf003bb77eb8ea29602adbd2c5913c67f784c63cefc83c58e63d68945607b1d","selectedLink":"repo_pulls"},"userMenu":{"owner":{"login":"psv1977","name":"Patricio Saavedra","avatarUrl":"https://avatars.githubusercontent.com/u/165965485?v=4"}},"headerLogo":{"href":"/","aria-label":"Homepage "},"notifications":{"indicatorMode":"none","websocketChannel":"eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MTY1OTY1NDg1IiwidCI6MTc3NTEzODQ5MX0=--03245ec5a2d8ee9ed2d6086289f0abad7e3c2a27097500f0a4cda4fe7f79b34b","fetchIndicatorSrc":"/notifications/indicator","fetchIndicatorEnabled":true},"issues":{"href":"/issues"},"pulls":{"href":"/pulls"},"contributedRepos":{"show":true,"href":"/repos"},"copilot":{"show":true,"showAgentsButton":false,"copilotChatUrl":"/github-copilot/chat?skip_anchor=true","copilotApiUrl":"https://api.individual.githubcopilot.com"},"search":{"show":true,"showCommandPalette":false,"isSearchPage":false,"isJumpToSearch":false,"searchContext":{"scope":"repo:Blandskron/EcommercePython","current_repo_name":"EcommercePython","current_repo_nwo":"Blandskron/EcommercePython","user_id":"Blandskron"}},"enterpriseBanner":{"show":false},"globalTransactionalMessage":null,"payloadsUrl":"/_global-navigation/payloads.json?current_repo_nwo=Blandskron%2FEcommercePython\u0026repository=EcommercePython\u0026return_to=https%3A%2F%2Fgithub.com%2FBlandskron%2FEcommercePython%2Fpull%2F29\u0026user_id=Blandskron"}}</script>
+  <div data-target="react-partial.reactRoot"><link rel="preload" as="image" href="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/165965485"><header role="banner" aria-label="Global Navigation Menu" class="GlobalNav styles-module__appHeader__YzYWk prc-Stack-Stack-UQ9k6" data-gap="none" data-direction="vertical" data-align="stretch" data-wrap="nowrap" data-justify="start" data-padding="none"><div class="prc-Stack-Stack-UQ9k6" data-direction="horizontal" data-align="center" data-wrap="nowrap" data-justify="center" data-padding="none"><div data-testid="top-nav-left" class="styles-module__left__Fylw7 styles-module__withLocalNavigation__rjTJ_ prc-Stack-Stack-UQ9k6" data-gap="condensed" data-direction="horizontal" data-align="stretch" data-wrap="nowrap" data-justify="start" data-padding="normal"><div data-loading-wrapper="true"><button data-component="IconButton" type="button" aria-haspopup="dialog" class="prc-Button-ButtonBase-9n-Xk styles-module__appHeaderButton__axedQ prc-Button-IconButton-fyge7" data-loading="false" data-no-visuals="true" data-size="medium" data-variant="invisible" aria-labelledby="_R_apb_"><svg aria-hidden="true" focusable="false" class="octicon octicon-three-bars" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1 2.75A.75.75 0 0 1 1.75 2h12.5a.75.75 0 0 1 0 1.5H1.75A.75.75 0 0 1 1 2.75Zm0 5A.75.75 0 0 1 1.75 7h12.5a.75.75 0 0 1 0 1.5H1.75A.75.75 0 0 1 1 7.75ZM1.75 12h12.5a.75.75 0 0 1 0 1.5H1.75a.75.75 0 0 1 0-1.5Z"></path></svg></button></div><span class="prc-TooltipV2-Tooltip-tLeuB" data-direction="s" aria-hidden="true" id="_R_apb_" popover="auto">Open menu</span><div class="d-none"></div><a data-component="IconButton" type="button" class="prc-Button-ButtonBase-9n-Xk styles-module__appHeaderHome__nkA_U prc-Button-IconButton-fyge7" data-loading="false" data-no-visuals="true" data-size="medium" data-variant="invisible" aria-labelledby="_R_cpb_" href="https://github.com/" data-discover="true"><svg aria-hidden="true" focusable="false" class="octicon octicon-mark-github" viewBox="0 0 24 24" width="32" height="32" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"></path></svg></a><span class="prc-TooltipV2-Tooltip-tLeuB" data-direction="s" aria-hidden="true" popover="auto"><span id="_R_cpb_">Homepage <span class="prc-src-InternalVisuallyHidden-2YaI6">(<!-- -->g then d<!-- -->)</span></span><span class="prc-TooltipV2-KeybindingHintContainer-Ymj-3 prc-TooltipV2-HasTextBefore-fdOXj" aria-hidden="true"><kbd class="prc-KeybindingHint-KeybindingHint-qpYIs prc-Text-Text-9mHv3" data-testid="keybinding-hint"><span class="prc-components-Chord-DdhWN prc-components-ChordOnEmphasis-O-4BS prc-components-ChordSmall-c-P-x prc-Text-Text-9mHv3" data-kbd-chord="true"> <span class="prc-src-InternalVisuallyHidden-2YaI6">g</span><span aria-hidden="true">G</span></span><span class="prc-src-InternalVisuallyHidden-2YaI6">then</span> <span class="prc-components-Chord-DdhWN prc-components-ChordOnEmphasis-O-4BS prc-components-ChordSmall-c-P-x prc-Text-Text-9mHv3" data-kbd-chord="true"> <span class="prc-src-InternalVisuallyHidden-2YaI6">d</span><span aria-hidden="true">D</span></span></kbd></span></span><div class="d-none"></div></div><div data-testid="top-nav-center" class="styles-module__center__R3QRv styles-module__withLocalNavigation__rjTJ_ prc-Stack-Stack-UQ9k6" data-gap="condensed" data-direction="horizontal" data-align="stretch" data-wrap="nowrap" data-justify="start" data-padding="normal"><nav class="styles-module__contextRegion__VbSp2 prc-Breadcrumbs-BreadcrumbsBase-3Gb-B" aria-label="Breadcrumbs" data-overflow="menu" data-variant="normal"><ol class="prc-Breadcrumbs-BreadcrumbsList-BKjpe"><li class="prc-Breadcrumbs-ItemWrapper-k0NLn"><a class="styles-module__contextCrumb__IzGIq prc-Breadcrumbs-Item-jcraJ" href="https://github.com/Blandskron" data-discover="true"><span class="">Blandskron</span></a></li><li class="prc-Breadcrumbs-ItemWrapper-k0NLn"><a class="styles-module__contextCrumb__IzGIq prc-Breadcrumbs-Item-jcraJ" href="https://github.com/Blandskron/EcommercePython" data-discover="true"><span class="styles-module__contextCrumbLast__tI2e3">EcommercePython</span></a></li></ol></nav><div class="Search-module__searchButtonGroup__aetw5 prc-ButtonGroup-ButtonGroup-vFUrY"><div><button type="button" aria-label="Search or jump to…" class="prc-Button-ButtonBase-9n-Xk styles-module__appHeaderButton__axedQ Search-module__searchButton__aiE0a" data-loading="false" data-size="medium" data-variant="invisible"><span data-component="buttonContent" data-align="center" class="prc-Button-ButtonContent-Iohp5"><span data-component="leadingVisual" class="prc-Button-Visual-YNt2F prc-Button-VisualWrap-E4cnq"><svg aria-hidden="true" focusable="false" class="octicon octicon-search" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path></svg></span><span data-component="text" class="prc-Button-Label-FWkx3"><span class="Search-module__placeholder__p9hbG Search-module__text__veSYi Search-module__value__TFoak">Type <kbd class="Search-module__kbd__WCskr">/</kbd> to search</span></span></span></button></div><div></div></div><button data-component="IconButton" type="button" class="prc-Button-ButtonBase-9n-Xk styles-module__appHeaderButton__axedQ Search-module__smallSearchButton___8Gvn prc-Button-IconButton-fyge7" data-loading="false" data-no-visuals="true" data-size="medium" data-variant="invisible" aria-labelledby="_R_2l9b_"><svg aria-hidden="true" focusable="false" class="octicon octicon-search" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path></svg></button><span class="prc-TooltipV2-Tooltip-tLeuB" data-direction="s" aria-hidden="true" popover="auto"><span id="_R_2l9b_">Search or jump to…<span class="prc-src-InternalVisuallyHidden-2YaI6">(<!-- -->forward slash<!-- -->)</span></span><span class="prc-TooltipV2-KeybindingHintContainer-Ymj-3 prc-TooltipV2-HasTextBefore-fdOXj" aria-hidden="true"><kbd class="prc-KeybindingHint-KeybindingHint-qpYIs prc-Text-Text-9mHv3" data-testid="keybinding-hint"><span class="prc-components-Chord-DdhWN prc-components-ChordOnEmphasis-O-4BS prc-components-ChordSmall-c-P-x prc-Text-Text-9mHv3" data-kbd-chord="true"> <span class="prc-src-InternalVisuallyHidden-2YaI6">forward slash</span><span aria-hidden="true">/</span></span></kbd></span></span><div class="d-none"></div><div class="d-none"><qbsearch-input class="search-input" data-scope="repo:Blandskron/EcommercePython" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="djF92AUfN-TxlQA2vi1pHE3iuhzcCsz5mAKV26GO_4-M7RQrmGiyOpFLASViB2tdo94FfLSkN8hGNA2Yl2lsVA" data-max-custom-scopes="10" data-header-redesign-enabled="true" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations" data-current-repository="Blandskron/EcommercePython" data-current-org="" data-current-owner="Blandskron" data-logged-in="true" data-copilot-chat-enabled="true" data-nl-search-enabled="false" data-catalyst="">
+  <div class="search-input-container search-with-dialog position-relative d-flex flex-row flex-items-center height-auto color-bg-transparent border-0 color-fg-subtle mx-0" data-action="click:qbsearch-input#searchInputContainerClicked">
+
+    <input type="hidden" name="type" class="js-site-search-type-field">
+
+    
+<div class="Overlay--hidden " data-modal-dialog-overlay="">
+  <modal-dialog data-action="close:qbsearch-input#handleClose cancel:qbsearch-input#handleClose" data-target="qbsearch-input.searchSuggestionsDialog" role="dialog" id="search-suggestions-dialog" aria-modal="true" aria-labelledby="search-suggestions-dialog-header" data-view-component="true" class="Overlay Overlay--width-medium Overlay--height-auto">
+      <h1 id="search-suggestions-dialog-header" class="sr-only">Search code, repositories, users, issues, pull requests...</h1>
+    <div class="Overlay-body Overlay-body--paddingNone">
+      
+          <div data-view-component="true">        <div class="search-suggestions position-absolute width-full color-shadow-large border color-fg-default color-bg-default overflow-hidden d-flex flex-column query-builder-container" style="border-radius: 12px;" data-target="qbsearch-input.queryBuilderContainer" hidden="">
+          <!-- '"` --><!-- </textarea></xmp> --><form id="query-builder-test-form" action="https://github.com/Blandskron/EcommercePython/pull/29/conflicts" accept-charset="UTF-8" method="get">
+  <query-builder data-target="qbsearch-input.queryBuilder" id="query-builder-query-builder-test" data-filter-key=":" data-view-component="true" class="QueryBuilder search-query-builder" data-min-width="300" data-catalyst="">
+    <div class="FormControl FormControl--fullWidth">
+      <label id="query-builder-test-label" for="query-builder-test" class="FormControl-label sr-only">
+        Search
+      </label>
+      <div class="QueryBuilder-StyledInput width-fit " data-target="query-builder.styledInput">
+          <span id="query-builder-test-leadingvisual-wrap" class="FormControl-input-leadingVisualWrap QueryBuilder-leadingVisualWrap">
+            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search FormControl-input-leadingVisual">
+    <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path>
+</svg>
+          </span>
+        <div data-target="query-builder.styledInputContainer" class="QueryBuilder-StyledInputContainer">
+          <div aria-hidden="true" class="QueryBuilder-StyledInputContent" data-target="query-builder.styledInputContent"></div>
+          <div class="QueryBuilder-InputWrapper">
+            <div aria-hidden="true" class="QueryBuilder-Sizer" data-target="query-builder.sizer"><span></span></div>
+            <input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="validation-aca2ecf6-49b2-4c8e-81d9-e79fffb50e85" data-target="query-builder.input" data-action="
+          input:query-builder#inputChange
+          blur:query-builder#inputBlur
+          keydown:query-builder#inputKeydown
+          focus:query-builder#inputFocus
+        " data-view-component="true" class="FormControl-input QueryBuilder-Input FormControl-medium" aria-controls="query-builder-test-results" aria-autocomplete="list" aria-haspopup="listbox" style="width: 300px;">
+          </div>
+        </div>
+          <span data-target="query-builder.clearButton" hidden="">
+            <span class="sr-only" id="query-builder-test-clear">Clear</span>
+            <button role="button" id="query-builder-test-clear-button" aria-labelledby="query-builder-test-clear query-builder-test-label" data-action="
+                  click:query-builder#clear
+                  focus:query-builder#clearButtonFocus
+                  blur:query-builder#clearButtonBlur
+                " variant="small" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium mr-1 tmp-mr-1 px-2 tmp-px-2 py-0 tmp-py-0 d-flex flex-items-center rounded-1 color-fg-muted">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x-circle-fill Button-visual">
+    <path d="M2.343 13.657A8 8 0 1 1 13.658 2.343 8 8 0 0 1 2.343 13.657ZM6.03 4.97a.751.751 0 0 0-1.042.018.751.751 0 0 0-.018 1.042L6.94 8 4.97 9.97a.749.749 0 0 0 .326 1.275.749.749 0 0 0 .734-.215L8 9.06l1.97 1.97a.749.749 0 0 0 1.275-.326.749.749 0 0 0-.215-.734L9.06 8l1.97-1.97a.749.749 0 0 0-.326-1.275.749.749 0 0 0-.734.215L8 6.94Z"></path>
+</svg>
+</button>
+
+          </span>
+      </div>
+      <template id="search-icon"></template>
+
+<template id="code-icon"></template>
+
+<template id="file-code-icon"></template>
+
+<template id="history-icon"></template>
+
+<template id="repo-icon"></template>
+
+<template id="bookmark-icon"></template>
+
+<template id="plus-circle-icon"></template>
+
+<template id="circle-icon"></template>
+
+<template id="trash-icon"></template>
+
+<template id="team-icon"></template>
+
+<template id="project-icon"></template>
+
+<template id="pencil-icon"></template>
+
+<template id="copilot-icon"></template>
+
+<template id="copilot-error-icon"></template>
+
+<template id="workflow-icon"></template>
+
+<template id="book-icon"></template>
+
+<template id="code-review-icon"></template>
+
+<template id="codespaces-icon"></template>
+
+<template id="comment-icon"></template>
+
+<template id="comment-discussion-icon"></template>
+
+<template id="organization-icon"></template>
+
+<template id="rocket-icon"></template>
+
+<template id="shield-check-icon"></template>
+
+<template id="heart-icon"></template>
+
+<template id="server-icon"></template>
+
+<template id="globe-icon"></template>
+
+<template id="issue-opened-icon"></template>
+
+<template id="device-mobile-icon"></template>
+
+<template id="package-icon"></template>
+
+<template id="credit-card-icon"></template>
+
+<template id="play-icon"></template>
+
+<template id="gift-icon"></template>
+
+<template id="code-square-icon"></template>
+
+<template id="device-desktop-icon"></template>
+
+        <div class="position-relative">
+                        <ul role="listbox" class="ActionListWrap QueryBuilder-ListWrap" aria-label="Suggestions" data-action="
+                combobox-commit:query-builder#comboboxCommit
+                mousedown:query-builder#resultsMousedown
+              " data-target="query-builder.resultsList" data-persist-list="false" id="query-builder-test-results" tabindex="-1"></ul>
+
+        </div>
+      <div class="FormControl-inlineValidation" id="validation-aca2ecf6-49b2-4c8e-81d9-e79fffb50e85" hidden="hidden">
+        <span class="FormControl-inlineValidation--visual">
+          <svg aria-hidden="true" height="12" viewBox="0 0 12 12" version="1.1" width="12" data-view-component="true" class="octicon octicon-alert-fill">
+    <path d="M4.855.708c.5-.896 1.79-.896 2.29 0l4.675 8.351a1.312 1.312 0 0 1-1.146 1.954H1.33A1.313 1.313 0 0 1 .183 9.058ZM7 7V3H5v4Zm-1 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"></path>
+</svg>
+        </span>
+        <span></span>
+</div>    </div>
+    <div data-target="query-builder.screenReaderFeedback" aria-live="polite" aria-atomic="true" class="sr-only">0 suggestions.</div>
+</query-builder></form>
+          <div class="d-flex flex-row color-fg-muted tmp-px-3 text-small color-bg-default search-feedback-prompt">
+            <a target="_blank" href="https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax" data-view-component="true" class="Link color-fg-accent text-normal ml-2 tmp-ml-2">Search syntax tips</a>            <div class="d-flex flex-1"></div>
+              <button data-action="click:qbsearch-input#showFeedbackDialog" type="button" data-view-component="true" class="Button--link Button--medium Button color-fg-accent text-normal ml-2 tmp-ml-2">  <span class="Button-content">
+    <span class="Button-label">Give feedback</span>
+  </span>
+</button>
+          </div>
+        </div>
+</div>
+
+    </div>
+</modal-dialog></div>
+  </div>
+  <div data-action="click:qbsearch-input#retract" class="dark-backdrop position-fixed" hidden="" data-target="qbsearch-input.darkBackdrop"></div>
+  <div class="color-fg-default">
+    
+<dialog-helper>
+  <dialog data-target="qbsearch-input.feedbackDialog" data-action="close:qbsearch-input#handleDialogClose cancel:qbsearch-input#handleDialogClose" id="feedback-dialog" aria-modal="true" aria-labelledby="feedback-dialog-title" aria-describedby="feedback-dialog-description" data-view-component="true" class="Overlay Overlay-whenNarrow Overlay--size-medium Overlay--motion-scaleFade Overlay--disableScroll">
+    <div data-view-component="true" class="Overlay-header">
+  <div class="Overlay-headerContentWrap">
+    <div class="Overlay-titleWrap">
+      <h1 class="Overlay-title " id="feedback-dialog-title">
+        Provide feedback
+      </h1>
+        
+    </div>
+    <div class="Overlay-actionWrap">
+      <button data-close-dialog-id="feedback-dialog" aria-label="Close" type="button" data-view-component="true" class="close-button Overlay-closeButton"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg></button>
+    </div>
+  </div>
+  
+</div>
+      <scrollable-region data-labelled-by="feedback-dialog-title" data-catalyst="" style="overflow: auto;">
+        <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --><form id="code-search-feedback-form" data-turbo="false" action="https://github.com/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="hfRRxXqXd6giBXR4IVT9Z-yH6eqAyKpc83q1bjK8nGsqULxf69cHEnh9uG1m8jt2GRucV4X_QclQ5IPHd_M40w">
+          <p>We read every piece of feedback, and take your input very seriously.</p>
+          <textarea name="feedback" class="form-control width-full mb-2" style="height: 120px" id="feedback"></textarea>
+          <input name="include_email" id="include_email" aria-label="Include my email address so I can be contacted" class="form-control mr-2" type="checkbox">
+          <label for="include_email" style="font-weight: normal">Include my email address so I can be contacted</label>
+</form></div>
+      </scrollable-region>
+      <div data-view-component="true" class="Overlay-footer Overlay-footer--alignEnd">          <button data-close-dialog-id="feedback-dialog" type="button" data-view-component="true" class="btn">    Cancel
+</button>
+          <button form="code-search-feedback-form" data-action="click:qbsearch-input#submitFeedback" type="submit" data-view-component="true" class="btn-primary btn">    Submit feedback
+</button>
+</div>
+</dialog></dialog-helper>
+
+    <custom-scopes data-target="qbsearch-input.customScopesManager" data-catalyst="">
+    
+<dialog-helper>
+  <dialog data-target="custom-scopes.customScopesModalDialog" data-action="close:qbsearch-input#handleDialogClose cancel:qbsearch-input#handleDialogClose" id="custom-scopes-dialog" aria-modal="true" aria-labelledby="custom-scopes-dialog-title" aria-describedby="custom-scopes-dialog-description" data-view-component="true" class="Overlay Overlay-whenNarrow Overlay--size-medium Overlay--motion-scaleFade Overlay--disableScroll">
+    <div data-view-component="true" class="Overlay-header Overlay-header--divided">
+  <div class="Overlay-headerContentWrap">
+    <div class="Overlay-titleWrap">
+      <h1 class="Overlay-title " id="custom-scopes-dialog-title">
+        Saved searches
+      </h1>
+        <h2 id="custom-scopes-dialog-description" class="Overlay-description">Use saved searches to filter your results more quickly</h2>
+    </div>
+    <div class="Overlay-actionWrap">
+      <button data-close-dialog-id="custom-scopes-dialog" aria-label="Close" type="button" data-view-component="true" class="close-button Overlay-closeButton"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg></button>
+    </div>
+  </div>
+  
+</div>
+      <scrollable-region data-labelled-by="custom-scopes-dialog-title" data-catalyst="" style="overflow: auto;">
+        <div data-view-component="true" class="Overlay-body">        <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
+
+        <div hidden="" class="create-custom-scope-form" data-target="custom-scopes.createCustomScopeForm">
+        <!-- '"` --><!-- </textarea></xmp> --><form id="custom-scopes-dialog-form" data-turbo="false" action="https://github.com/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="DroNU8jDEjFHXI5DzNb8T2xokmUqgopiwA7jBdjAEaSox0exOO34Qg4rGSOcuLjgJOXTIYLMy4eSsGI3hvEekg">
+          <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
+
+          <input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customScopesIdField">
+
+          <div class="form-group">
+            <label for="custom_scope_name">Name</label>
+            <auto-check src="/search/custom_scopes/check_name" required="">
+              <input type="text" name="custom_scope_name" id="custom_scope_name" data-target="custom-scopes.customScopesNameField" class="form-control" autocomplete="off" placeholder="github-ruby" required="" maxlength="50" spellcheck="false">
+              <input type="hidden" value="f0WiFQv8AX8Oo9ZUkRa3fyXa0HZLutFgY9uSDJrrQ9UhcIN47Z1Pl76CbZABN7_vwyUZ_aJwtm7xLxyeKDcnlA" data-csrf="true">
+            </auto-check>
+          </div>
+
+          <div class="form-group">
+            <label for="custom_scope_query">Query</label>
+            <input type="text" name="custom_scope_query" id="custom_scope_query" data-target="custom-scopes.customScopesQueryField" class="form-control" autocomplete="off" placeholder="(repo:mona/a OR repo:mona/b) AND lang:python" required="" maxlength="500">
+          </div>
+
+          <p class="text-small color-fg-muted">
+            To see all available qualifiers, see our <a class="Link--inTextBlock" href="https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax">documentation</a>.
+          </p>
+</form>        </div>
+
+        <div data-target="custom-scopes.manageCustomScopesForm">
+          <div data-target="custom-scopes.list"></div>
+        </div>
+
+</div>
+      </scrollable-region>
+      <div data-view-component="true" class="Overlay-footer Overlay-footer--alignEnd Overlay-footer--divided">          <button data-action="click:custom-scopes#customScopesCancel" type="button" data-view-component="true" class="btn">    Cancel
+</button>
+          <button form="custom-scopes-dialog-form" data-action="click:custom-scopes#customScopesSubmit" data-target="custom-scopes.customScopesSubmitButton" type="submit" data-view-component="true" class="btn-primary btn">    Create saved search
+</button>
+</div>
+</dialog></dialog-helper>
+    </custom-scopes>
+  </div>
+</qbsearch-input><input type="hidden" value="gi-j750CQaEwPd6F8BdvzU-6EZnPcVvia2F8wjljEySMiK1lqfcDCMZ6J1cqonhEIkFAecWZbgTb6ftONd62fg" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf"></div></div><div data-testid="top-nav-right" class="styles-module__right__mlBQg styles-module__withLocalNavigation__rjTJ_ prc-Stack-Stack-UQ9k6" data-gap="condensed" data-direction="horizontal" data-align="center" data-wrap="nowrap" data-justify="start" data-padding="normal"><div data-testid="top-bar-actions" class="hide-sm hide-md prc-Stack-Stack-UQ9k6" data-gap="condensed" data-direction="horizontal" data-align="center" data-wrap="nowrap" data-justify="start" data-padding="none"><span><div class="prc-ButtonGroup-ButtonGroup-vFUrY"><div><a data-component="IconButton" type="button" class="prc-Button-ButtonBase-9n-Xk styles-module__appHeaderButton__axedQ prc-Button-IconButton-fyge7" data-loading="false" data-no-visuals="true" data-size="medium" data-variant="invisible" aria-labelledby="_R_2kjpb_" href="https://github.com/copilot" data-discover="true"><svg aria-hidden="true" focusable="false" class="octicon octicon-copilot" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M7.998 15.035c-4.562 0-7.873-2.914-7.998-3.749V9.338c.085-.628.677-1.686 1.588-2.065.013-.07.024-.143.036-.218.029-.183.06-.384.126-.612-.201-.508-.254-1.084-.254-1.656 0-.87.128-1.769.693-2.484.579-.733 1.494-1.124 2.724-1.261 1.206-.134 2.262.034 2.944.765.05.053.096.108.139.165.044-.057.094-.112.143-.165.682-.731 1.738-.899 2.944-.765 1.23.137 2.145.528 2.724 1.261.566.715.693 1.614.693 2.484 0 .572-.053 1.148-.254 1.656.066.228.098.429.126.612.012.076.024.148.037.218.924.385 1.522 1.471 1.591 2.095v1.872c0 .766-3.351 3.795-8.002 3.795Zm0-1.485c2.28 0 4.584-1.11 5.002-1.433V7.862l-.023-.116c-.49.21-1.075.291-1.727.291-1.146 0-2.059-.327-2.71-.991A3.222 3.222 0 0 1 8 6.303a3.24 3.24 0 0 1-.544.743c-.65.664-1.563.991-2.71.991-.652 0-1.236-.081-1.727-.291l-.023.116v4.255c.419.323 2.722 1.433 5.002 1.433ZM6.762 2.83c-.193-.206-.637-.413-1.682-.297-1.019.113-1.479.404-1.713.7-.247.312-.369.789-.369 1.554 0 .793.129 1.171.308 1.371.162.181.519.379 1.442.379.853 0 1.339-.235 1.638-.54.315-.322.527-.827.617-1.553.117-.935-.037-1.395-.241-1.614Zm4.155-.297c-1.044-.116-1.488.091-1.681.297-.204.219-.359.679-.242 1.614.091.726.303 1.231.618 1.553.299.305.784.54 1.638.54.922 0 1.28-.198 1.442-.379.179-.2.308-.578.308-1.371 0-.765-.123-1.242-.37-1.554-.233-.296-.693-.587-1.713-.7Z"></path><path d="M6.25 9.037a.75.75 0 0 1 .75.75v1.501a.75.75 0 0 1-1.5 0V9.787a.75.75 0 0 1 .75-.75Zm4.25.75v1.501a.75.75 0 0 1-1.5 0V9.787a.75.75 0 0 1 1.5 0Z"></path></svg></a><span class="prc-TooltipV2-Tooltip-tLeuB" data-direction="s" aria-hidden="true" id="_R_2kjpb_" popover="auto">Chat with Copilot</span></div><div><div class="d-none"></div><button type="button" aria-label="Open Copilot…" aria-haspopup="true" aria-expanded="false" tabindex="0" class="prc-Button-ButtonBase-9n-Xk styles-module__appHeaderButton__axedQ CopilotItems-module__CopilotMenu__DVdfE" data-loading="false" data-size="medium" data-variant="invisible" id="_R_54jpb_"><span data-component="buttonContent" data-align="center" class="prc-Button-ButtonContent-Iohp5"><span data-component="leadingVisual" class="prc-Button-Visual-YNt2F prc-Button-VisualWrap-E4cnq"><svg aria-hidden="true" focusable="false" class="octicon octicon-copilot" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M7.998 15.035c-4.562 0-7.873-2.914-7.998-3.749V9.338c.085-.628.677-1.686 1.588-2.065.013-.07.024-.143.036-.218.029-.183.06-.384.126-.612-.201-.508-.254-1.084-.254-1.656 0-.87.128-1.769.693-2.484.579-.733 1.494-1.124 2.724-1.261 1.206-.134 2.262.034 2.944.765.05.053.096.108.139.165.044-.057.094-.112.143-.165.682-.731 1.738-.899 2.944-.765 1.23.137 2.145.528 2.724 1.261.566.715.693 1.614.693 2.484 0 .572-.053 1.148-.254 1.656.066.228.098.429.126.612.012.076.024.148.037.218.924.385 1.522 1.471 1.591 2.095v1.872c0 .766-3.351 3.795-8.002 3.795Zm0-1.485c2.28 0 4.584-1.11 5.002-1.433V7.862l-.023-.116c-.49.21-1.075.291-1.727.291-1.146 0-2.059-.327-2.71-.991A3.222 3.222 0 0 1 8 6.303a3.24 3.24 0 0 1-.544.743c-.65.664-1.563.991-2.71.991-.652 0-1.236-.081-1.727-.291l-.023.116v4.255c.419.323 2.722 1.433 5.002 1.433ZM6.762 2.83c-.193-.206-.637-.413-1.682-.297-1.019.113-1.479.404-1.713.7-.247.312-.369.789-.369 1.554 0 .793.129 1.171.308 1.371.162.181.519.379 1.442.379.853 0 1.339-.235 1.638-.54.315-.322.527-.827.617-1.553.117-.935-.037-1.395-.241-1.614Zm4.155-.297c-1.044-.116-1.488.091-1.681.297-.204.219-.359.679-.242 1.614.091.726.303 1.231.618 1.553.299.305.784.54 1.638.54.922 0 1.28-.198 1.442-.379.179-.2.308-.578.308-1.371 0-.765-.123-1.242-.37-1.554-.233-.296-.693-.587-1.713-.7Z"></path><path d="M6.25 9.037a.75.75 0 0 1 .75.75v1.501a.75.75 0 0 1-1.5 0V9.787a.75.75 0 0 1 .75-.75Zm4.25.75v1.501a.75.75 0 0 1-1.5 0V9.787a.75.75 0 0 1 1.5 0Z"></path></svg></span></span><span data-component="trailingAction" class="prc-Button-Visual-YNt2F prc-Button-VisualWrap-E4cnq"><svg aria-hidden="true" focusable="false" class="octicon octicon-triangle-down" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="m4.427 7.427 3.396 3.396a.25.25 0 0 0 .354 0l3.396-3.396A.25.25 0 0 0 11.396 7H4.604a.25.25 0 0 0-.177.427Z"></path></svg></span></button></div></div></span><div class="styles-module__itemDivider__nunbs"></div><button type="button" aria-haspopup="true" aria-expanded="false" tabindex="0" class="prc-Button-ButtonBase-9n-Xk GlobalCreateMenu-module__actionMenuButton__Hj_iB" data-loading="false" data-size="medium" data-variant="invisible" aria-labelledby="global-create-menu-tooltip-_R_1jpb_" id="_R_5jpb_"><span data-component="buttonContent" data-align="center" class="prc-Button-ButtonContent-Iohp5"><span data-component="leadingVisual" class="prc-Button-Visual-YNt2F prc-Button-VisualWrap-E4cnq"><svg aria-hidden="true" focusable="false" class="octicon octicon-plus" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 0 1 0 1.5H8.5v4.25a.75.75 0 0 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2Z"></path></svg></span></span><span data-component="trailingAction" class="prc-Button-Visual-YNt2F prc-Button-VisualWrap-E4cnq"><svg aria-hidden="true" focusable="false" class="octicon octicon-triangle-down" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="m4.427 7.427 3.396 3.396a.25.25 0 0 0 .354 0l3.396-3.396A.25.25 0 0 0 11.396 7H4.604a.25.25 0 0 0-.177.427Z"></path></svg></span></button><span class="prc-TooltipV2-Tooltip-tLeuB" data-direction="s" aria-hidden="true" id="global-create-menu-tooltip-_R_1jpb_" popover="auto">Create new...</span><a data-component="IconButton" type="button" class="prc-Button-ButtonBase-9n-Xk styles-module__appHeaderButton__axedQ prc-Button-IconButton-fyge7" data-loading="false" data-no-visuals="true" data-size="medium" data-variant="invisible" aria-labelledby="_R_m3pb_" href="https://github.com/issues" data-discover="true"><svg aria-hidden="true" focusable="false" class="octicon octicon-issue-opened" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path></svg></a><span class="prc-TooltipV2-Tooltip-tLeuB" data-direction="s" aria-hidden="true" id="_R_m3pb_" popover="auto">Issues</span><a data-component="IconButton" type="button" class="prc-Button-ButtonBase-9n-Xk styles-module__appHeaderButton__axedQ prc-Button-IconButton-fyge7" data-loading="false" data-no-visuals="true" data-size="medium" data-variant="invisible" aria-labelledby="_R_q3pb_" href="https://github.com/pulls" data-discover="true"><svg aria-hidden="true" focusable="false" class="octicon octicon-git-pull-request" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"></path></svg></a><span class="prc-TooltipV2-Tooltip-tLeuB" data-direction="s" aria-hidden="true" id="_R_q3pb_" popover="auto">Pull requests</span><a data-component="IconButton" type="button" class="prc-Button-ButtonBase-9n-Xk styles-module__appHeaderButton__axedQ prc-Button-IconButton-fyge7" data-loading="false" data-no-visuals="true" data-size="medium" data-variant="invisible" aria-labelledby="_R_u3pb_" href="https://github.com/repos" data-discover="true"><svg aria-hidden="true" focusable="false" class="octicon octicon-repo" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path></svg></a><span class="prc-TooltipV2-Tooltip-tLeuB" data-direction="s" aria-hidden="true" id="_R_u3pb_" popover="auto">Repositories</span><div class="d-none"></div></div><a data-component="IconButton" type="button" class="prc-Button-ButtonBase-9n-Xk styles-module__appHeaderButton__axedQ prc-Button-IconButton-fyge7" data-loading="false" data-no-visuals="true" data-size="medium" data-variant="invisible" aria-labelledby="_R_lpb_" href="https://github.com/notifications" data-discover="true"><svg aria-hidden="true" focusable="false" class="octicon octicon-inbox" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2.8 2.06A1.75 1.75 0 0 1 4.41 1h7.18c.7 0 1.333.417 1.61 1.06l2.74 6.395c.04.093.06.194.06.295v4.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25v-4.5c0-.101.02-.202.06-.295Zm1.61.44a.25.25 0 0 0-.23.152L1.887 8H4.75a.75.75 0 0 1 .6.3L6.625 10h2.75l1.275-1.7a.75.75 0 0 1 .6-.3h2.863L11.82 2.652a.25.25 0 0 0-.23-.152Zm10.09 7h-2.875l-1.275 1.7a.75.75 0 0 1-.6.3h-3.5a.75.75 0 0 1-.6-.3L4.375 9.5H1.5v3.75c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25Z"></path></svg></a><span class="prc-TooltipV2-Tooltip-tLeuB" data-direction="s" aria-hidden="true" popover="auto"><span id="_R_lpb_">You have no unread notifications<span class="prc-src-InternalVisuallyHidden-2YaI6">(<!-- -->g then n<!-- -->)</span></span><span class="prc-TooltipV2-KeybindingHintContainer-Ymj-3 prc-TooltipV2-HasTextBefore-fdOXj" aria-hidden="true"><kbd class="prc-KeybindingHint-KeybindingHint-qpYIs prc-Text-Text-9mHv3" data-testid="keybinding-hint"><span class="prc-components-Chord-DdhWN prc-components-ChordOnEmphasis-O-4BS prc-components-ChordSmall-c-P-x prc-Text-Text-9mHv3" data-kbd-chord="true"> <span class="prc-src-InternalVisuallyHidden-2YaI6">g</span><span aria-hidden="true">G</span></span><span class="prc-src-InternalVisuallyHidden-2YaI6">then</span> <span class="prc-components-Chord-DdhWN prc-components-ChordOnEmphasis-O-4BS prc-components-ChordSmall-c-P-x prc-Text-Text-9mHv3" data-kbd-chord="true"> <span class="prc-src-InternalVisuallyHidden-2YaI6">n</span><span aria-hidden="true">N</span></span></kbd></span></span><div class="d-none"></div><div class="GlobalNavUserMenu-module__container__NaVIt"><button data-component="IconButton" type="button" aria-haspopup="menu" data-login="psv1977" class="prc-Button-ButtonBase-9n-Xk GlobalNavUserMenu-module__anchor__Dcej6 prc-Button-IconButton-fyge7" data-loading="false" data-no-visuals="true" data-size="medium" data-variant="invisible" aria-labelledby="_R_2npb_"><img data-component="Avatar" class="prc-Avatar-Avatar-0xaUi" alt="Patricio Saavedra" width="32" height="32" style="--avatarSize-regular:32px" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/165965485" data-testid="github-avatar"></button><span class="prc-TooltipV2-Tooltip-tLeuB" data-direction="s" aria-hidden="true" id="_R_2npb_" popover="auto">Open user navigation menu</span></div></div></div><h2 class="prc-src-InternalVisuallyHidden-2YaI6">Repository navigation</h2><nav class="prc-components-UnderlineWrapper-eT-Yj LocalNavigation-module__LocalNavigation__b0Xc0" aria-label="Repository" data-variant="inset" data-overflow-measured="true"><ul class="prc-components-UnderlineItemList-xKlKC" role="list"><li class="prc-UnderlineNav-UnderlineNavItem-syRjR"><a href="https://github.com/Blandskron/EcommercePython" data-tab-item="code" data-react-nav="code-view" data-react-nav-anchor="code-view-repo-link" data-turbo-frame="repo-content-turbo-frame" class="prc-components-UnderlineItem-7fP-n" data-discover="true"><span data-component="icon"><svg aria-hidden="true" focusable="false" class="octicon octicon-code" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path></svg></span><span data-component="text" data-content="Code">Code</span></a></li><li class="prc-UnderlineNav-UnderlineNavItem-syRjR"><a href="https://github.com/Blandskron/EcommercePython/issues" data-tab-item="issues" data-react-nav="issues-react" data-turbo-frame="repo-content-turbo-frame" class="prc-components-UnderlineItem-7fP-n" data-discover="true"><span data-component="icon"><svg aria-hidden="true" focusable="false" class="octicon octicon-issue-opened" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path></svg></span><span data-component="text" data-content="Issues">Issues</span><span data-component="counter"><span aria-hidden="true" data-variant="secondary" class="prc-CounterLabel-CounterLabel-X-kRU">1</span><span class="prc-VisuallyHidden-VisuallyHidden-Q0qSB">&nbsp;(<!-- -->1<!-- -->)</span></span></a></li><li class="prc-UnderlineNav-UnderlineNavItem-syRjR"><a href="https://github.com/Blandskron/EcommercePython/pulls" aria-current="page" data-tab-item="pull-requests" data-turbo-frame="repo-content-turbo-frame" class="prc-components-UnderlineItem-7fP-n" data-discover="true"><span data-component="icon"><svg aria-hidden="true" focusable="false" class="octicon octicon-git-pull-request" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"></path></svg></span><span data-component="text" data-content="Pull requests">Pull requests</span><span data-component="counter"><span aria-hidden="true" data-variant="secondary" class="prc-CounterLabel-CounterLabel-X-kRU">1</span><span class="prc-VisuallyHidden-VisuallyHidden-Q0qSB">&nbsp;(<!-- -->1<!-- -->)</span></span></a></li><li class="prc-UnderlineNav-UnderlineNavItem-syRjR"><a href="https://github.com/Blandskron/EcommercePython/actions" data-tab-item="actions" data-turbo-frame="repo-content-turbo-frame" class="prc-components-UnderlineItem-7fP-n" data-discover="true"><span data-component="icon"><svg aria-hidden="true" focusable="false" class="octicon octicon-play" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm4.879-2.773 4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215Z"></path></svg></span><span data-component="text" data-content="Actions">Actions</span></a></li><li class="prc-UnderlineNav-UnderlineNavItem-syRjR"><a href="https://github.com/Blandskron/EcommercePython/projects" data-tab-item="projects" data-turbo-frame="repo-content-turbo-frame" class="prc-components-UnderlineItem-7fP-n" data-discover="true"><span data-component="icon"><svg aria-hidden="true" focusable="false" class="octicon octicon-table" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25ZM6.5 6.5v8h7.75a.25.25 0 0 0 .25-.25V6.5Zm8-1.5V1.75a.25.25 0 0 0-.25-.25H6.5V5Zm-13 1.5v7.75c0 .138.112.25.25.25H5v-8ZM5 5V1.5H1.75a.25.25 0 0 0-.25.25V5Z"></path></svg></span><span data-component="text" data-content="Projects">Projects</span></a></li><li class="prc-UnderlineNav-UnderlineNavItem-syRjR"><a href="https://github.com/Blandskron/EcommercePython/wiki" data-tab-item="wiki" data-turbo-frame="repo-content-turbo-frame" class="prc-components-UnderlineItem-7fP-n" data-discover="true"><span data-component="icon"><svg aria-hidden="true" focusable="false" class="octicon octicon-book" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11.006 1h4.245a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.507a2.25 2.25 0 0 0-1.591.659l-.622.621a.75.75 0 0 1-1.06 0l-.622-.621A2.25 2.25 0 0 0 5.258 13H.75a.75.75 0 0 1-.75-.75Zm7.251 10.324.004-5.073-.002-2.253A2.25 2.25 0 0 0 5.003 2.5H1.5v9h3.757a3.75 3.75 0 0 1 1.994.574ZM8.755 4.75l-.004 7.322a3.752 3.752 0 0 1 1.992-.572H14.5v-9h-3.495a2.25 2.25 0 0 0-2.25 2.25Z"></path></svg></span><span data-component="text" data-content="Wiki">Wiki</span></a></li><li class="prc-UnderlineNav-UnderlineNavItem-syRjR"><a href="https://github.com/Blandskron/EcommercePython/security" data-tab-item="security-and-quality" data-turbo-frame="repo-content-turbo-frame" class="prc-components-UnderlineItem-7fP-n" data-discover="true"><span data-component="icon"><svg aria-hidden="true" focusable="false" class="octicon octicon-shield" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M7.467.133a1.748 1.748 0 0 1 1.066 0l5.25 1.68A1.75 1.75 0 0 1 15 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.697 1.697 0 0 1-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 0 1 1.217-1.667Zm.61 1.429a.25.25 0 0 0-.153 0l-5.25 1.68a.25.25 0 0 0-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.196.196 0 0 0 .154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.251.251 0 0 0-.174-.237l-5.25-1.68ZM8.75 4.75v3a.75.75 0 0 1-1.5 0v-3a.75.75 0 0 1 1.5 0ZM9 10.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg></span><span data-component="text" data-content="Security and quality">Security and quality</span></a></li><li class="prc-UnderlineNav-UnderlineNavItem-syRjR"><a href="https://github.com/Blandskron/EcommercePython/pulse" data-tab-item="insights" data-turbo-frame="repo-content-turbo-frame" class="prc-components-UnderlineItem-7fP-n" data-discover="true"><span data-component="icon"><svg aria-hidden="true" focusable="false" class="octicon octicon-graph" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0Zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path></svg></span><span data-component="text" data-content="Insights">Insights</span></a></li><li class="prc-UnderlineNav-UnderlineNavItem-syRjR"><a href="https://github.com/Blandskron/EcommercePython/settings" data-tab-item="settings" data-turbo-frame="repo-content-turbo-frame" class="prc-components-UnderlineItem-7fP-n" data-discover="true"><span data-component="icon"><svg aria-hidden="true" focusable="false" class="octicon octicon-gear" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M8 0a8.2 8.2 0 0 1 .701.031C9.444.095 9.99.645 10.16 1.29l.288 1.107c.018.066.079.158.212.224.231.114.454.243.668.386.123.082.233.09.299.071l1.103-.303c.644-.176 1.392.021 1.82.63.27.385.506.792.704 1.218.315.675.111 1.422-.364 1.891l-.814.806c-.049.048-.098.147-.088.294.016.257.016.515 0 .772-.01.147.038.246.088.294l.814.806c.475.469.679 1.216.364 1.891a7.977 7.977 0 0 1-.704 1.217c-.428.61-1.176.807-1.82.63l-1.102-.302c-.067-.019-.177-.011-.3.071a5.909 5.909 0 0 1-.668.386c-.133.066-.194.158-.211.224l-.29 1.106c-.168.646-.715 1.196-1.458 1.26a8.006 8.006 0 0 1-1.402 0c-.743-.064-1.289-.614-1.458-1.26l-.289-1.106c-.018-.066-.079-.158-.212-.224a5.738 5.738 0 0 1-.668-.386c-.123-.082-.233-.09-.299-.071l-1.103.303c-.644.176-1.392-.021-1.82-.63a8.12 8.12 0 0 1-.704-1.218c-.315-.675-.111-1.422.363-1.891l.815-.806c.05-.048.098-.147.088-.294a6.214 6.214 0 0 1 0-.772c.01-.147-.038-.246-.088-.294l-.815-.806C.635 6.045.431 5.298.746 4.623a7.92 7.92 0 0 1 .704-1.217c.428-.61 1.176-.807 1.82-.63l1.102.302c.067.019.177.011.3-.071.214-.143.437-.272.668-.386.133-.066.194-.158.211-.224l.29-1.106C6.009.645 6.556.095 7.299.03 7.53.01 7.764 0 8 0Zm-.571 1.525c-.036.003-.108.036-.137.146l-.289 1.105c-.147.561-.549.967-.998 1.189-.173.086-.34.183-.5.29-.417.278-.97.423-1.529.27l-1.103-.303c-.109-.03-.175.016-.195.045-.22.312-.412.644-.573.99-.014.031-.021.11.059.19l.815.806c.411.406.562.957.53 1.456a4.709 4.709 0 0 0 0 .582c.032.499-.119 1.05-.53 1.456l-.815.806c-.081.08-.073.159-.059.19.162.346.353.677.573.989.02.03.085.076.195.046l1.102-.303c.56-.153 1.113-.008 1.53.27.161.107.328.204.501.29.447.222.85.629.997 1.189l.289 1.105c.029.109.101.143.137.146a6.6 6.6 0 0 0 1.142 0c.036-.003.108-.036.137-.146l.289-1.105c.147-.561.549-.967.998-1.189.173-.086.34-.183.5-.29.417-.278.97-.423 1.529-.27l1.103.303c.109.029.175-.016.195-.045.22-.313.411-.644.573-.99.014-.031.021-.11-.059-.19l-.815-.806c-.411-.406-.562-.957-.53-1.456a4.709 4.709 0 0 0 0-.582c-.032-.499.119-1.05.53-1.456l.815-.806c.081-.08.073-.159.059-.19a6.464 6.464 0 0 0-.573-.989c-.02-.03-.085-.076-.195-.046l-1.102.303c-.56.153-1.113.008-1.53-.27a4.44 4.44 0 0 0-.501-.29c-.447-.222-.85-.629-.997-1.189l-.289-1.105c-.029-.11-.101-.143-.137-.146a6.6 6.6 0 0 0-1.142 0ZM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM9.5 8a1.5 1.5 0 1 0-3.001.001A1.5 1.5 0 0 0 9.5 8Z"></path></svg></span><span data-component="text" data-content="Settings">Settings</span></a></li></ul></nav><div class="d-none"></div></header><script type="application/json" id="__PRIMER_DATA__R_0___">{"resolvedServerColorMode":"night"}</script></div>
+</react-partial>
+
+
+      <div class="js-global-bar" style="display: none;">
+        
+
+
+<qbsearch-input class="search-input" data-scope="repo:Blandskron/EcommercePython" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="djF92AUfN-TxlQA2vi1pHE3iuhzcCsz5mAKV26GO_4-M7RQrmGiyOpFLASViB2tdo94FfLSkN8hGNA2Yl2lsVA" data-max-custom-scopes="10" data-header-redesign-enabled="true" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations" data-current-repository="Blandskron/EcommercePython" data-current-org="" data-current-owner="Blandskron" data-logged-in="true" data-copilot-chat-enabled="true" data-nl-search-enabled="false" data-catalyst="">
+  <div class="search-input-container search-with-dialog position-relative d-flex flex-row flex-items-center height-auto color-bg-transparent border-0 color-fg-subtle mx-0" data-action="click:qbsearch-input#searchInputContainerClicked">
+
+    <input type="hidden" name="type" class="js-site-search-type-field">
+
+    
+<div class="Overlay--hidden " data-modal-dialog-overlay="">
+  <modal-dialog data-action="close:qbsearch-input#handleClose cancel:qbsearch-input#handleClose" data-target="qbsearch-input.searchSuggestionsDialog" role="dialog" id="search-suggestions-dialog" aria-modal="true" aria-labelledby="search-suggestions-dialog-header" data-view-component="true" class="Overlay Overlay--width-medium Overlay--height-auto">
+      <h1 id="search-suggestions-dialog-header" class="sr-only">Search code, repositories, users, issues, pull requests...</h1>
+    <div class="Overlay-body Overlay-body--paddingNone">
+      
+          <div data-view-component="true">        <div class="search-suggestions position-absolute width-full color-shadow-large border color-fg-default color-bg-default overflow-hidden d-flex flex-column query-builder-container" style="border-radius: 12px;" data-target="qbsearch-input.queryBuilderContainer" hidden="">
+          <!-- '"` --><!-- </textarea></xmp> --><form id="query-builder-test-form" action="https://github.com/Blandskron/EcommercePython/pull/29/conflicts" accept-charset="UTF-8" method="get">
+  <query-builder data-target="qbsearch-input.queryBuilder" id="query-builder-query-builder-test" data-filter-key=":" data-view-component="true" class="QueryBuilder search-query-builder" data-min-width="300" data-catalyst="">
+    <div class="FormControl FormControl--fullWidth">
+      <label id="query-builder-test-label" for="query-builder-test" class="FormControl-label sr-only">
+        Search
+      </label>
+      <div class="QueryBuilder-StyledInput width-fit " data-target="query-builder.styledInput">
+          <span id="query-builder-test-leadingvisual-wrap" class="FormControl-input-leadingVisualWrap QueryBuilder-leadingVisualWrap">
+            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search FormControl-input-leadingVisual">
+    <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path>
+</svg>
+          </span>
+        <div data-target="query-builder.styledInputContainer" class="QueryBuilder-StyledInputContainer">
+          <div aria-hidden="true" class="QueryBuilder-StyledInputContent" data-target="query-builder.styledInputContent"></div>
+          <div class="QueryBuilder-InputWrapper">
+            <div aria-hidden="true" class="QueryBuilder-Sizer" data-target="query-builder.sizer"><span></span></div>
+            <input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="validation-aca2ecf6-49b2-4c8e-81d9-e79fffb50e85" data-target="query-builder.input" data-action="
+          input:query-builder#inputChange
+          blur:query-builder#inputBlur
+          keydown:query-builder#inputKeydown
+          focus:query-builder#inputFocus
+        " data-view-component="true" class="FormControl-input QueryBuilder-Input FormControl-medium" aria-controls="query-builder-test-results" aria-autocomplete="list" aria-haspopup="listbox" style="width: 300px;">
+          </div>
+        </div>
+          <span data-target="query-builder.clearButton" hidden="">
+            <span class="sr-only" id="query-builder-test-clear">Clear</span>
+            <button role="button" id="query-builder-test-clear-button" aria-labelledby="query-builder-test-clear query-builder-test-label" data-action="
+                  click:query-builder#clear
+                  focus:query-builder#clearButtonFocus
+                  blur:query-builder#clearButtonBlur
+                " variant="small" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium mr-1 tmp-mr-1 px-2 tmp-px-2 py-0 tmp-py-0 d-flex flex-items-center rounded-1 color-fg-muted">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x-circle-fill Button-visual">
+    <path d="M2.343 13.657A8 8 0 1 1 13.658 2.343 8 8 0 0 1 2.343 13.657ZM6.03 4.97a.751.751 0 0 0-1.042.018.751.751 0 0 0-.018 1.042L6.94 8 4.97 9.97a.749.749 0 0 0 .326 1.275.749.749 0 0 0 .734-.215L8 9.06l1.97 1.97a.749.749 0 0 0 1.275-.326.749.749 0 0 0-.215-.734L9.06 8l1.97-1.97a.749.749 0 0 0-.326-1.275.749.749 0 0 0-.734.215L8 6.94Z"></path>
+</svg>
+</button>
+
+          </span>
+      </div>
+      <template id="search-icon"></template>
+
+<template id="code-icon"></template>
+
+<template id="file-code-icon"></template>
+
+<template id="history-icon"></template>
+
+<template id="repo-icon"></template>
+
+<template id="bookmark-icon"></template>
+
+<template id="plus-circle-icon"></template>
+
+<template id="circle-icon"></template>
+
+<template id="trash-icon"></template>
+
+<template id="team-icon"></template>
+
+<template id="project-icon"></template>
+
+<template id="pencil-icon"></template>
+
+<template id="copilot-icon"></template>
+
+<template id="copilot-error-icon"></template>
+
+<template id="workflow-icon"></template>
+
+<template id="book-icon"></template>
+
+<template id="code-review-icon"></template>
+
+<template id="codespaces-icon"></template>
+
+<template id="comment-icon"></template>
+
+<template id="comment-discussion-icon"></template>
+
+<template id="organization-icon"></template>
+
+<template id="rocket-icon"></template>
+
+<template id="shield-check-icon"></template>
+
+<template id="heart-icon"></template>
+
+<template id="server-icon"></template>
+
+<template id="globe-icon"></template>
+
+<template id="issue-opened-icon"></template>
+
+<template id="device-mobile-icon"></template>
+
+<template id="package-icon"></template>
+
+<template id="credit-card-icon"></template>
+
+<template id="play-icon"></template>
+
+<template id="gift-icon"></template>
+
+<template id="code-square-icon"></template>
+
+<template id="device-desktop-icon"></template>
+
+        <div class="position-relative">
+                        <ul role="listbox" class="ActionListWrap QueryBuilder-ListWrap" aria-label="Suggestions" data-action="
+                combobox-commit:query-builder#comboboxCommit
+                mousedown:query-builder#resultsMousedown
+              " data-target="query-builder.resultsList" data-persist-list="false" id="query-builder-test-results" tabindex="-1"></ul>
+
+        </div>
+      <div class="FormControl-inlineValidation" id="validation-aca2ecf6-49b2-4c8e-81d9-e79fffb50e85" hidden="hidden">
+        <span class="FormControl-inlineValidation--visual">
+          <svg aria-hidden="true" height="12" viewBox="0 0 12 12" version="1.1" width="12" data-view-component="true" class="octicon octicon-alert-fill">
+    <path d="M4.855.708c.5-.896 1.79-.896 2.29 0l4.675 8.351a1.312 1.312 0 0 1-1.146 1.954H1.33A1.313 1.313 0 0 1 .183 9.058ZM7 7V3H5v4Zm-1 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"></path>
+</svg>
+        </span>
+        <span></span>
+</div>    </div>
+    <div data-target="query-builder.screenReaderFeedback" aria-live="polite" aria-atomic="true" class="sr-only">0 suggestions.</div>
+</query-builder></form>
+          <div class="d-flex flex-row color-fg-muted tmp-px-3 text-small color-bg-default search-feedback-prompt">
+            <a target="_blank" href="https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax" data-view-component="true" class="Link color-fg-accent text-normal ml-2 tmp-ml-2">Search syntax tips</a>            <div class="d-flex flex-1"></div>
+              <button data-action="click:qbsearch-input#showFeedbackDialog" type="button" data-view-component="true" class="Button--link Button--medium Button color-fg-accent text-normal ml-2 tmp-ml-2">  <span class="Button-content">
+    <span class="Button-label">Give feedback</span>
+  </span>
+</button>
+          </div>
+        </div>
+</div>
+
+    </div>
+</modal-dialog></div>
+  </div>
+  <div data-action="click:qbsearch-input#retract" class="dark-backdrop position-fixed" hidden="" data-target="qbsearch-input.darkBackdrop"></div>
+  <div class="color-fg-default">
+    
+<dialog-helper>
+  <dialog data-target="qbsearch-input.feedbackDialog" data-action="close:qbsearch-input#handleDialogClose cancel:qbsearch-input#handleDialogClose" id="feedback-dialog" aria-modal="true" aria-labelledby="feedback-dialog-title" aria-describedby="feedback-dialog-description" data-view-component="true" class="Overlay Overlay-whenNarrow Overlay--size-medium Overlay--motion-scaleFade Overlay--disableScroll">
+    <div data-view-component="true" class="Overlay-header">
+  <div class="Overlay-headerContentWrap">
+    <div class="Overlay-titleWrap">
+      <h1 class="Overlay-title " id="feedback-dialog-title">
+        Provide feedback
+      </h1>
+        
+    </div>
+    <div class="Overlay-actionWrap">
+      <button data-close-dialog-id="feedback-dialog" aria-label="Close" type="button" data-view-component="true" class="close-button Overlay-closeButton"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg></button>
+    </div>
+  </div>
+  
+</div>
+      <scrollable-region data-labelled-by="feedback-dialog-title" data-catalyst="" style="overflow: auto;">
+        <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --><form id="code-search-feedback-form" data-turbo="false" action="https://github.com/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="hfRRxXqXd6giBXR4IVT9Z-yH6eqAyKpc83q1bjK8nGsqULxf69cHEnh9uG1m8jt2GRucV4X_QclQ5IPHd_M40w">
+          <p>We read every piece of feedback, and take your input very seriously.</p>
+          <textarea name="feedback" class="form-control width-full mb-2" style="height: 120px" id="feedback"></textarea>
+          <input name="include_email" id="include_email" aria-label="Include my email address so I can be contacted" class="form-control mr-2" type="checkbox">
+          <label for="include_email" style="font-weight: normal">Include my email address so I can be contacted</label>
+</form></div>
+      </scrollable-region>
+      <div data-view-component="true" class="Overlay-footer Overlay-footer--alignEnd">          <button data-close-dialog-id="feedback-dialog" type="button" data-view-component="true" class="btn">    Cancel
+</button>
+          <button form="code-search-feedback-form" data-action="click:qbsearch-input#submitFeedback" type="submit" data-view-component="true" class="btn-primary btn">    Submit feedback
+</button>
+</div>
+</dialog></dialog-helper>
+
+    <custom-scopes data-target="qbsearch-input.customScopesManager" data-catalyst="">
+    
+<dialog-helper>
+  <dialog data-target="custom-scopes.customScopesModalDialog" data-action="close:qbsearch-input#handleDialogClose cancel:qbsearch-input#handleDialogClose" id="custom-scopes-dialog" aria-modal="true" aria-labelledby="custom-scopes-dialog-title" aria-describedby="custom-scopes-dialog-description" data-view-component="true" class="Overlay Overlay-whenNarrow Overlay--size-medium Overlay--motion-scaleFade Overlay--disableScroll">
+    <div data-view-component="true" class="Overlay-header Overlay-header--divided">
+  <div class="Overlay-headerContentWrap">
+    <div class="Overlay-titleWrap">
+      <h1 class="Overlay-title " id="custom-scopes-dialog-title">
+        Saved searches
+      </h1>
+        <h2 id="custom-scopes-dialog-description" class="Overlay-description">Use saved searches to filter your results more quickly</h2>
+    </div>
+    <div class="Overlay-actionWrap">
+      <button data-close-dialog-id="custom-scopes-dialog" aria-label="Close" type="button" data-view-component="true" class="close-button Overlay-closeButton"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg></button>
+    </div>
+  </div>
+  
+</div>
+      <scrollable-region data-labelled-by="custom-scopes-dialog-title" data-catalyst="" style="overflow: auto;">
+        <div data-view-component="true" class="Overlay-body">        <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
+
+        <div hidden="" class="create-custom-scope-form" data-target="custom-scopes.createCustomScopeForm">
+        <!-- '"` --><!-- </textarea></xmp> --><form id="custom-scopes-dialog-form" data-turbo="false" action="https://github.com/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="DroNU8jDEjFHXI5DzNb8T2xokmUqgopiwA7jBdjAEaSox0exOO34Qg4rGSOcuLjgJOXTIYLMy4eSsGI3hvEekg">
+          <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
+
+          <input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customScopesIdField">
+
+          <div class="form-group">
+            <label for="custom_scope_name">Name</label>
+            <auto-check src="/search/custom_scopes/check_name" required="">
+              <input type="text" name="custom_scope_name" id="custom_scope_name" data-target="custom-scopes.customScopesNameField" class="form-control" autocomplete="off" placeholder="github-ruby" required="" maxlength="50" spellcheck="false">
+              <input type="hidden" value="f0WiFQv8AX8Oo9ZUkRa3fyXa0HZLutFgY9uSDJrrQ9UhcIN47Z1Pl76CbZABN7_vwyUZ_aJwtm7xLxyeKDcnlA" data-csrf="true">
+            </auto-check>
+          </div>
+
+          <div class="form-group">
+            <label for="custom_scope_query">Query</label>
+            <input type="text" name="custom_scope_query" id="custom_scope_query" data-target="custom-scopes.customScopesQueryField" class="form-control" autocomplete="off" placeholder="(repo:mona/a OR repo:mona/b) AND lang:python" required="" maxlength="500">
+          </div>
+
+          <p class="text-small color-fg-muted">
+            To see all available qualifiers, see our <a class="Link--inTextBlock" href="https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax">documentation</a>.
+          </p>
+</form>        </div>
+
+        <div data-target="custom-scopes.manageCustomScopesForm">
+          <div data-target="custom-scopes.list"></div>
+        </div>
+
+</div>
+      </scrollable-region>
+      <div data-view-component="true" class="Overlay-footer Overlay-footer--alignEnd Overlay-footer--divided">          <button data-action="click:custom-scopes#customScopesCancel" type="button" data-view-component="true" class="btn">    Cancel
+</button>
+          <button form="custom-scopes-dialog-form" data-action="click:custom-scopes#customScopesSubmit" data-target="custom-scopes.customScopesSubmitButton" type="submit" data-view-component="true" class="btn-primary btn">    Create saved search
+</button>
+</div>
+</dialog></dialog-helper>
+    </custom-scopes>
+  </div>
+</qbsearch-input>  <input type="hidden" value="gi-j750CQaEwPd6F8BdvzU-6EZnPcVvia2F8wjljEySMiK1lqfcDCMZ6J1cqonhEIkFAecWZbgTb6ftONd62fg" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf">
+
+
+      </div>
+
+
+      <div hidden="hidden" data-view-component="true" class="js-stale-session-flash stale-session-flash flash flash-warn flash-full">
+  
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+        <span class="js-stale-session-flash-signed-in" hidden="">You signed in with another tab or window. <a class="Link--inTextBlock" href="https://github.com/Blandskron/EcommercePython/pull/29/conflicts">Reload</a> to refresh your session.</span>
+        <span class="js-stale-session-flash-signed-out" hidden="">You signed out in another tab or window. <a class="Link--inTextBlock" href="https://github.com/Blandskron/EcommercePython/pull/29/conflicts">Reload</a> to refresh your session.</span>
+        <span class="js-stale-session-flash-switched" hidden="">You switched accounts on another tab or window. <a class="Link--inTextBlock" href="https://github.com/Blandskron/EcommercePython/pull/29/conflicts">Reload</a> to refresh your session.</span>
+
+    <button id="icon-button-c230bdde-4913-4b9f-8ef9-51d781145236" aria-labelledby="tooltip-01878bb5-14a6-4eee-b7b2-2c7403b75b6f" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium flash-close js-flash-close">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+</button><tool-tip id="tooltip-01878bb5-14a6-4eee-b7b2-2c7403b75b6f" for="icon-button-c230bdde-4913-4b9f-8ef9-51d781145236" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute" aria-hidden="true" role="tooltip"><template shadowrootmode="open"><style>
+      :host {
+        --tooltip-top: var(--tool-tip-position-top, 0);
+        --tooltip-left: var(--tool-tip-position-left, 0);
+        padding: var(--overlay-paddingBlock-condensed) var(--overlay-padding-condensed) !important;
+        font: var(--text-body-shorthand-small);
+        color: var(--tooltip-fgColor, var(--fgColor-onEmphasis)) !important;
+        text-align: center;
+        text-decoration: none;
+        text-shadow: none;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: break-word;
+        white-space: pre;
+        background: var(--tooltip-bgColor, var(--bgColor-emphasis)) !important;
+        border-radius: var(--borderRadius-medium);
+        border: 0 !important;
+        opacity: 0;
+        max-width: min(var(--overlay-width-small), 100vw);
+        word-wrap: break-word;
+        white-space: normal;
+        width: max-content !important;
+        inset: var(--tooltip-top) auto auto var(--tooltip-left) !important;
+        overflow: visible !important;
+        text-wrap: balance;
+      }
+
+      :host(:is(.tooltip-n, .tooltip-nw, .tooltip-ne)) {
+        --tooltip-top: calc(var(--tool-tip-position-top, 0) - var(--overlay-offset, 0.25rem));
+        --tooltip-left: var(--tool-tip-position-left);
+      }
+
+      :host(:is(.tooltip-s, .tooltip-sw, .tooltip-se)) {
+        --tooltip-top: calc(var(--tool-tip-position-top, 0) + var(--overlay-offset, 0.25rem));
+        --tooltip-left: var(--tool-tip-position-left);
+      }
+
+      :host(.tooltip-w) {
+        --tooltip-top: var(--tool-tip-position-top);
+        --tooltip-left: calc(var(--tool-tip-position-left, 0) - var(--overlay-offset, 0.25rem));
+      }
+
+      :host(.tooltip-e) {
+        --tooltip-top: var(--tool-tip-position-top);
+        --tooltip-left: calc(var(--tool-tip-position-left, 0) + var(--overlay-offset, 0.25rem));
+      }
+
+      :host:after{
+        position: absolute;
+        display: block;
+        right: 0;
+        left: 0;
+        height: var(--overlay-offset, 0.25rem);
+        content: "";
+      }
+
+      :host(.tooltip-s):after,
+      :host(.tooltip-se):after,
+      :host(.tooltip-sw):after {
+        bottom: 100%
+      }
+
+      :host(.tooltip-n):after,
+      :host(.tooltip-ne):after,
+      :host(.tooltip-nw):after {
+        top: 100%;
+      }
+
+      @keyframes tooltip-appear {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      :host(:popover-open),
+      :host(:popover-open):before {
+        animation-name: tooltip-appear;
+        animation-duration: .1s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in;
+      }
+
+      :host(.\:popover-open) {
+        animation-name: tooltip-appear;
+        animation-duration: .1s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in;
+      }
+
+      @media (forced-colors: active) {
+        :host {
+          outline: solid 1px transparent;
+        }
+
+        :host:before {
+          display: none;
+        }
+      }
+    </style><slot></slot></template>Dismiss alert</tool-tip>
+
+
+  
+</div>
+        
+          
+    </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+
+
+
+
+
+
+    <div id="js-flash-container" class="flash-container" data-turbo-replace="">
+
+
+
+
+  <template class="js-flash-template"></template>
+</div>
+
+
+    
+  <notification-shelf-watcher data-base-url="https://github.com/notifications/beta/shelf" data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MTY1OTY1NDg1OjI5OkVjb21tZXJjZVB5dGhvbiIsInQiOjE3NzUxMzg0OTF9--cbde5f7cde5590c329cdadf8af167f82e8ce01b0d195809023ba0d8ff545b857" data-view-component="true" class="js-socket-channel" data-refresh-delay="500" data-catalyst="" data-throttle-delay="5000"></notification-shelf-watcher>
+  <div hidden="" data-initial="" data-target="notification-shelf-watcher.placeholder"></div>
+
+
+
+
+
+
+  <div class="application-main " data-commit-hovercards-enabled="" data-discussion-hovercards-enabled="" data-issue-and-pr-hovercards-enabled="" data-project-hovercards-enabled="">
+        <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <main id="js-repo-pjax-container">
+      
+      
+
+
+
+
+
+
+    
+  <div id="repository-container-header" data-turbo-replace="" hidden=""></div>
+
+
+
+<turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class="" src="https://github.com/Blandskron/EcommercePython/pull/29/conflicts" complete="">
+    
+    
+<div class="clearfix new-discussion-timeline tmp-mt-4 p-0">
+  <div class="tmp-px-4 mx-2">
+    <a href="https://github.com/Blandskron/EcommercePython/pull/29" class="Link--primary no-underline" data-pjax="">
+      <h1 class="d-inline text-normal">
+        Agregando fotos de referencia UX a la Carpeta t... <span class="color-fg-muted">#29</span>
+      </h1>
+    </a>
+
+    <div class="d-flex flex-justify-between flex-items-start tmp-mb-3">
+      <div class="flex-auto">
+        <span class="color-fg-muted">
+          <span class="text-bold">Resolving conflicts</span> between <span title="Blandskron/EcommercePython:sm/psaavedra" class="commit-ref css-truncate user-select-contain expandable head-ref"><span class="css-truncate-target">sm/psaavedra</span></span><span></span> and <span title="Blandskron/EcommercePython:main" class="commit-ref css-truncate user-select-contain expandable base-ref"><span class="css-truncate-target">main</span></span><span></span> and committing changes <span class="mx-1"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-arrow-right">
+    <path d="M8.22 2.97a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l2.97-2.97H3.75a.75.75 0 0 1 0-1.5h7.44L8.22 4.03a.75.75 0 0 1 0-1.06Z"></path>
+</svg></span> <span title="Blandskron/EcommercePython:sm/psaavedra" class="commit-ref css-truncate user-select-contain expandable head-ref"><span class="css-truncate-target">sm/psaavedra</span></span><span></span>
+        </span>
+      </div>
+      <div>
+        <div class="stale-files-tab d-none js-resolve-conflicts-failed">
+          This page is out of date. <a class="stale-files-tab-link Link--inTextBlock" href="https://github.com/Blandskron/EcommercePython/pull/29/conflicts">Start over</a>
+        </div>
+
+        <div class="stale-files-tab d-none js-resolve-conflicts-repository-rule-violations">
+          Repository rule violations found. <a class="stale-files-tab-link Link--inTextBlock" href="https://github.com/Blandskron/EcommercePython/rules?ref=refs%2Fheads%2Fmain">View rules</a> or <a class="stale-files-tab-link Link--inTextBlock" href="https://github.com/Blandskron/EcommercePython/pull/29/conflicts">Start over</a>
+        </div>
+
+          <div class="d-none js-resolve-conflicts-complete wants-full-width-container">
+              
+<!-- '"` --><!-- </textarea></xmp> --><form class="js-resolve-conflicts-form d-flex flex-wrap flex-row-reverse" data-turbo="false" action="https://github.com/Blandskron/EcommercePython/pull/29/conflicts/resolve" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="g2AhLWJDdJ3BH2aHdSjf2cJVOHVLUG4GCVuoYxwoVKA_EEEGvjVWb6ONq-o2OWNQggMmz8qcQD3H4EahPp4dhg">
+    <input type="hidden" name="files[capturas%2Fdocs.md]" class="js-file">
+  <input type="hidden" name="pr_head_sha" value="5e4a2ff894457bede644a3911bdd57cf1eddaaa4">
+  <input type="hidden" name="pr_base_sha" value="336d0842eb221e746930b6b6039369bca1f590bc">
+
+    <button type="submit" class="btn btn-sm btn-primary flash-action js-resolve-conflicts-button" data-disable-with="Committing merge…">Commit merge</button>
+</form>
+          </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="col-3 float-left border-top">
+      <h3 class="tmp-py-3 tmp-px-4 color-fg-muted f6 color-bg-subtle border-bottom">
+        1 conflicting file
+      </h3>
+
+      <div class="conflicts-nav menu border-bottom rounded-0 color-bg-subtle overflow-scroll js-conflict-list">
+          <a href="https://github.com/Blandskron/EcommercePython/pull/29/conflict?name=capturas%252Fdocs.md&amp;ancestor_oid=87bc28c3444cfee5a10071968c8650436265025d&amp;base_oid=07a10cb032dd1f1c26fddf2054005a28007954c4&amp;head_oid=678f32f02f082951c52caade826d3cfd339165fb" class="menu-item conflict-nav-item border-bottom tmp-py-3 tmp-pl-4 tmp-pr-3 rounded-0 js-conflicted-file selected" data-filename="capturas%2Fdocs.md">
+
+            <div class="clearfix">
+              <div class="float-left mr-2">
+                <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-file-code color-fg-muted mt-1 tmp-mt-1">
+    <path d="M3 3a2 2 0 0 1 2-2h9.982a2 2 0 0 1 1.414.586l4.018 4.018A2 2 0 0 1 21 7.018V21a2 2 0 0 1-2 2H4.75a.75.75 0 0 1 0-1.5H19a.5.5 0 0 0 .5-.5V8.5h-4a2 2 0 0 1-2-2v-4H5a.5.5 0 0 0-.5.5v6.25a.75.75 0 0 1-1.5 0Zm12-.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 0-.146-.336l-4.018-4.018A.5.5 0 0 0 15 2.5Z"></path><path d="M4.53 12.24a.75.75 0 0 1-.039 1.06l-2.639 2.45 2.64 2.45a.75.75 0 1 1-1.022 1.1l-3.23-3a.75.75 0 0 1 0-1.1l3.23-3a.75.75 0 0 1 1.06.04Zm3.979 1.06a.75.75 0 1 1 1.02-1.1l3.231 3a.75.75 0 0 1 0 1.1l-3.23 3a.75.75 0 1 1-1.021-1.1l2.639-2.45-2.64-2.45Z"></path>
+</svg>
+              </div>
+              <div class="overflow-hidden">
+                <div class="discussion-item-icon color-bg-success-emphasis float-right mt-1">
+                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check mr-0 tmp-mr-0 color-fg-on-emphasis">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+                </div>
+                <div class="color-fg-default css-truncate css-truncate-target">
+                  docs.md
+                </div>
+                <div class="color-fg-muted f6">
+                  capturas/docs.md
+                </div>
+              </div>
+            </div>
+          </a>
+      </div>
+    </div>
+
+  <div class="col-9 float-right">
+    <div class="clearfix conflict-resolver js-conflict-resolver" data-hpc="">
+      <form class="resolve-file-form js-resolve-file-form">
+        <div class="form-group mt-0">
+          <input type="hidden" name="filename" value="files[capturas%2Fdocs.md]">
+          <div class="file border rounded-0 js-code-editor mt-0" data-editor-loaded="">
+            <div class="file-header border-bottom color-bg-subtle tmp-px-4">
+              <span class="file-info js-filename">capturas/docs.md</span>
+
+              <div class="resolved-notice float-right mt-1 color-fg-muted">
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg> Resolved
+              </div>
+
+              <div class="file-actions mr-2">
+                  <button data-disabled="" data-disabled-label="Remove all conflict markers to resolve this file" type="submit" data-view-component="true" class="tooltipped-nw js-mark-resolved tmp-ml-3 btn-sm btn float-right" aria-label="Remove all conflict markers to resolve this file">    Mark as resolved
+</button>
+
+                <details class="dropdown float-right tmp-mx-3 details-reset details-overlay js-dropdown-details">
+                    <summary aria-label="Editor setting" data-view-component="true" class="btn-link mt-1 tmp-mt-1">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-gear Link--secondary">
+    <path d="M8 0a8.2 8.2 0 0 1 .701.031C9.444.095 9.99.645 10.16 1.29l.288 1.107c.018.066.079.158.212.224.231.114.454.243.668.386.123.082.233.09.299.071l1.103-.303c.644-.176 1.392.021 1.82.63.27.385.506.792.704 1.218.315.675.111 1.422-.364 1.891l-.814.806c-.049.048-.098.147-.088.294.016.257.016.515 0 .772-.01.147.038.246.088.294l.814.806c.475.469.679 1.216.364 1.891a7.977 7.977 0 0 1-.704 1.217c-.428.61-1.176.807-1.82.63l-1.102-.302c-.067-.019-.177-.011-.3.071a5.909 5.909 0 0 1-.668.386c-.133.066-.194.158-.211.224l-.29 1.106c-.168.646-.715 1.196-1.458 1.26a8.006 8.006 0 0 1-1.402 0c-.743-.064-1.289-.614-1.458-1.26l-.289-1.106c-.018-.066-.079-.158-.212-.224a5.738 5.738 0 0 1-.668-.386c-.123-.082-.233-.09-.299-.071l-1.103.303c-.644.176-1.392-.021-1.82-.63a8.12 8.12 0 0 1-.704-1.218c-.315-.675-.111-1.422.363-1.891l.815-.806c.05-.048.098-.147.088-.294a6.214 6.214 0 0 1 0-.772c.01-.147-.038-.246-.088-.294l-.815-.806C.635 6.045.431 5.298.746 4.623a7.92 7.92 0 0 1 .704-1.217c.428-.61 1.176-.807 1.82-.63l1.102.302c.067.019.177.011.3-.071.214-.143.437-.272.668-.386.133-.066.194-.158.211-.224l.29-1.106C6.009.645 6.556.095 7.299.03 7.53.01 7.764 0 8 0Zm-.571 1.525c-.036.003-.108.036-.137.146l-.289 1.105c-.147.561-.549.967-.998 1.189-.173.086-.34.183-.5.29-.417.278-.97.423-1.529.27l-1.103-.303c-.109-.03-.175.016-.195.045-.22.312-.412.644-.573.99-.014.031-.021.11.059.19l.815.806c.411.406.562.957.53 1.456a4.709 4.709 0 0 0 0 .582c.032.499-.119 1.05-.53 1.456l-.815.806c-.081.08-.073.159-.059.19.162.346.353.677.573.989.02.03.085.076.195.046l1.102-.303c.56-.153 1.113-.008 1.53.27.161.107.328.204.501.29.447.222.85.629.997 1.189l.289 1.105c.029.109.101.143.137.146a6.6 6.6 0 0 0 1.142 0c.036-.003.108-.036.137-.146l.289-1.105c.147-.561.549-.967.998-1.189.173-.086.34-.183.5-.29.417-.278.97-.423 1.529-.27l1.103.303c.109.029.175-.016.195-.045.22-.313.411-.644.573-.99.014-.031.021-.11-.059-.19l-.815-.806c-.411-.406-.562-.957-.53-1.456a4.709 4.709 0 0 0 0-.582c-.032-.499.119-1.05.53-1.456l.815-.806c.081-.08.073-.159.059-.19a6.464 6.464 0 0 0-.573-.989c-.02-.03-.085-.076-.195-.046l-1.102.303c-.56.153-1.113.008-1.53-.27a4.44 4.44 0 0 0-.501-.29c-.447-.222-.85-.629-.997-1.189l-.289-1.105c-.029-.11-.101-.143-.137-.146a6.6 6.6 0 0 0-1.142 0ZM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM9.5 8a1.5 1.5 0 1 0-3.001.001A1.5 1.5 0 0 0 9.5 8Z"></path>
+</svg>
+                    <div class="dropdown-caret Link--secondary"></div>
+</summary>
+                  <div class="dropdown-menu dropdown-menu-sw code-formatting-menu mt-1">
+                    <div class="d-table table-fixed width-full tmp-px-3 py-2 border-bottom">
+                      <label for="formatting-code-indent-mode" class="text-normal d-table-cell v-align-middle col-6">Indent mode</label>
+                      <div class="d-table-cell">
+                        <select class="form-select select-sm js-code-indent-mode" id="formatting-code-indent-mode">
+                          <option value="space">Spaces</option>
+<option value="tab">Tabs</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="d-table table-fixed width-full tmp-px-3 py-2 border-bottom">
+                      <label for="formatting-code-indent-width" class="text-normal d-table-cell v-align-middle col-6">Indent size</label>
+                      <div class="d-table-cell">
+                        <select class="form-select select-sm js-code-indent-width" id="formatting-code-indent-width">
+                          <option selected="selected" value="2">2</option>
+<option value="4">4</option>
+<option value="8">8</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="d-table table-fixed width-full tmp-px-3 py-2">
+                      <label for="formatting-code-wrap-mode" class="text-normal d-table-cell v-align-middle col-6">Line wrap mode</label>
+                      <div class="d-table-cell">
+                        <select class="form-select select-sm js-code-wrap-mode" id="formatting-code-wrap-mode">
+                          <option selected="selected" value="off">No wrap</option>
+<option value="on">Soft wrap</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </details>
+                <div class="mt-1 f6 tmp-mr-3 float-right">
+                  <strong class="color-fg-danger">
+                    <span class="js-conflict-count">1</span>
+                    <span class="js-conflict-label" data-singular-string="conflict" data-plural-string="conflicts">conflict</span>
+                  </strong>
+                  <button id="conflict-keyboard-hint-button" data-show-dialog-id="conflict-resolution-help-dialog" type="button" data-view-component="true" class="js-conflict-keyboard-hint-button tmp-ml-3 Button--link Button--medium Button color-fg-muted" aria-labelledby="tooltip-eed0c3d1-543f-4f93-9966-0143ac816a12">  <span class="Button-content">
+    <span class="Button-label"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-info Link--muted">
+    <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path>
+</svg></span>
+  </span>
+</button>
+                  <tool-tip id="tooltip-eed0c3d1-543f-4f93-9966-0143ac816a12" for="conflict-keyboard-hint-button" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute" aria-hidden="true" role="tooltip"><template shadowrootmode="open"><style>
+      :host {
+        --tooltip-top: var(--tool-tip-position-top, 0);
+        --tooltip-left: var(--tool-tip-position-left, 0);
+        padding: var(--overlay-paddingBlock-condensed) var(--overlay-padding-condensed) !important;
+        font: var(--text-body-shorthand-small);
+        color: var(--tooltip-fgColor, var(--fgColor-onEmphasis)) !important;
+        text-align: center;
+        text-decoration: none;
+        text-shadow: none;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: break-word;
+        white-space: pre;
+        background: var(--tooltip-bgColor, var(--bgColor-emphasis)) !important;
+        border-radius: var(--borderRadius-medium);
+        border: 0 !important;
+        opacity: 0;
+        max-width: min(var(--overlay-width-small), 100vw);
+        word-wrap: break-word;
+        white-space: normal;
+        width: max-content !important;
+        inset: var(--tooltip-top) auto auto var(--tooltip-left) !important;
+        overflow: visible !important;
+        text-wrap: balance;
+      }
+
+      :host(:is(.tooltip-n, .tooltip-nw, .tooltip-ne)) {
+        --tooltip-top: calc(var(--tool-tip-position-top, 0) - var(--overlay-offset, 0.25rem));
+        --tooltip-left: var(--tool-tip-position-left);
+      }
+
+      :host(:is(.tooltip-s, .tooltip-sw, .tooltip-se)) {
+        --tooltip-top: calc(var(--tool-tip-position-top, 0) + var(--overlay-offset, 0.25rem));
+        --tooltip-left: var(--tool-tip-position-left);
+      }
+
+      :host(.tooltip-w) {
+        --tooltip-top: var(--tool-tip-position-top);
+        --tooltip-left: calc(var(--tool-tip-position-left, 0) - var(--overlay-offset, 0.25rem));
+      }
+
+      :host(.tooltip-e) {
+        --tooltip-top: var(--tool-tip-position-top);
+        --tooltip-left: calc(var(--tool-tip-position-left, 0) + var(--overlay-offset, 0.25rem));
+      }
+
+      :host:after{
+        position: absolute;
+        display: block;
+        right: 0;
+        left: 0;
+        height: var(--overlay-offset, 0.25rem);
+        content: "";
+      }
+
+      :host(.tooltip-s):after,
+      :host(.tooltip-se):after,
+      :host(.tooltip-sw):after {
+        bottom: 100%
+      }
+
+      :host(.tooltip-n):after,
+      :host(.tooltip-ne):after,
+      :host(.tooltip-nw):after {
+        top: 100%;
+      }
+
+      @keyframes tooltip-appear {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      :host(:popover-open),
+      :host(:popover-open):before {
+        animation-name: tooltip-appear;
+        animation-duration: .1s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in;
+      }
+
+      :host(.\:popover-open) {
+        animation-name: tooltip-appear;
+        animation-duration: .1s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in;
+      }
+
+      @media (forced-colors: active) {
+        :host {
+          outline: solid 1px transparent;
+        }
+
+        :host:before {
+          display: none;
+        }
+      }
+    </style><slot></slot></template>Keyboard hints</tool-tip>
+                  
+<dialog-helper>
+  <dialog id="conflict-resolution-help-dialog" aria-modal="true" aria-labelledby="conflict-resolution-help-dialog-title" aria-describedby="conflict-resolution-help-dialog-description" data-view-component="true" class="Overlay Overlay-whenNarrow Overlay--size-large Overlay--motion-scaleFade Overlay--disableScroll">
+    <div data-view-component="true" class="Overlay-header">
+  <div class="Overlay-headerContentWrap">
+    <div class="Overlay-titleWrap">
+      <h1 class="Overlay-title " id="conflict-resolution-help-dialog-title">
+        How to interact with code conflict editor via keyboard
+      </h1>
+        
+    </div>
+    <div class="Overlay-actionWrap">
+      <button data-close-dialog-id="conflict-resolution-help-dialog" aria-label="Close" type="button" data-view-component="true" class="close-button Overlay-closeButton"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg></button>
+    </div>
+  </div>
+  
+</div>
+      <scrollable-region data-labelled-by="conflict-resolution-help-dialog-title" data-catalyst="" style="overflow: auto;">
+        <div data-view-component="true" class="Overlay-body">                        <table class="conflict-resolution-hint-table">
+                          <thead class="sr-only">
+                            <tr><th>Action</th><th>Keyboard Shortcut</th></tr>
+                          </thead>
+                          <tbody>
+                            <tr class="conflict-resolution-hint-row">
+                              <td>Toggle between edit mode and tab focus mode</td>
+                              <td class="conflict-resolution-hint-hint"><kbd class="hx_kbd">Ctrl</kbd>+<kbd class="hx_kbd">Shift</kbd>+<kbd class="hx_kbd">m</kbd></td>
+                            </tr>
+                            <tr class="conflict-resolution-hint-row">
+                              <td>Navigation between elements with tab focus mode on</td>
+                              <td class="conflict-resolution-hint-hint"><kbd class="hx_kbd">Tab</kbd>/ <kbd class="hx_kbd">Shift</kbd>+<kbd class="hx_kbd">Tab</kbd></td>
+                            </tr>
+                            <tr class="conflict-resolution-hint-row">
+                              <td>Move to next conflict control after accepting suggestion</td>
+                              <td class="conflict-resolution-hint-hint"><kbd class="hx_kbd">Shift</kbd>+<kbd class="hx_kbd">Tab</kbd></td>
+                            </tr>
+                            <tr class="conflict-resolution-hint-row border-bottom-0">
+                              <td>Exit editor</td>
+                              <td class="conflict-resolution-hint-hint"><kbd class="hx_kbd">Esc</kbd> then <kbd class="hx_kbd">Tab</kbd></td>
+                            </tr>
+                          </tbody>
+                        </table>
+</div>
+      </scrollable-region>
+      <div data-view-component="true" class="Overlay-footer Overlay-footer--alignEnd">                        <button data-close-dialog-id="conflict-resolution-help-dialog" type="button" data-view-component="true" class="Button--secondary Button--medium Button">  <span class="Button-content">
+    <span class="Button-label">Close</span>
+  </span>
+</button>
+
+</div>
+</dialog></dialog-helper>
+                    <button aria-label="Previous conflict" type="button" data-view-component="true" class="Link--primary no-underline js-prev-conflict tmp-ml-3 btn-link">    Prev <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-chevron-up v-align-middle color-fg-muted">
+    <path d="M3.22 10.53a.749.749 0 0 1 0-1.06l4.25-4.25a.749.749 0 0 1 1.06 0l4.25 4.25a.749.749 0 1 1-1.06 1.06L8 6.811 4.28 10.53a.749.749 0 0 1-1.06 0Z"></path>
+</svg>
+</button>                    <button aria-label="Next conflict" type="button" data-view-component="true" class="Link--primary no-underline js-next-conflict tmp-ml-3 btn-link">    Next <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-chevron-down v-align-middle color-fg-muted">
+    <path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"></path>
+</svg>
+</button>                </div>
+              </div>
+            </div>
+
+            <textarea class="form-control file-editor-textarea js-blob-contents js-code-textarea" rows="25" name="name" spellcheck="false" autofocus="" disabled="" data-merge-mode="true" style="display: none;"></textarea>
+
+            <div class="d-none focus-trap-banner">
+            Use <kbd>Control+Shift+m</kbd> to toggle the <kbd>tab</kbd> key moving focus.
+            </div>
+          <div class="CodeMirror cm-s-github-light CodeMirror-focused"><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 67px; min-width: 264.312px; margin-bottom: -15px; border-right-width: 35px; min-height: 116px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><span><span>​</span>x</span></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style=""></div><div class="CodeMirror-code focus-visible" role="presentation" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true" tabindex="0" id="code-editor" aria-label="
+            Use Control+Shift+m to toggle the tab key moving focus.
+            " style="" data-focus-visible-added=""><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -67px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">aqui van las capturas de pantalla</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -67px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">esto es para que vea que la rama exista</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -67px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">3</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Pamela Delgado</span></pre></div><div class="" style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -67px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">4</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">solo para que este aqui</span></pre></div><div class="" style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -67px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">5</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Publicando rama v2 Alex</span></pre></div><div class="" style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -67px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">6</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 35px; width: 1px; border-bottom: 0px solid transparent; top: 116px;"></div><div class="CodeMirror-gutters" style="height: 151px; left: 0px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 53px;"></div><div class="CodeMirror-gutter merge-gutter"></div></div></div></div></div>
+        </div>
+      </form>
+      <img alt="" class="conflict-loader mx-auto" src="./Resolve Conflicts · Pull Request #29 · Blandskron_EcommercePython_files/octocat-spinner-128.gif" width="64" height="64">
+    </div>
+  </div>
+
+  <div class="d-none js-conflict-gutters">
+    <div class="js-start conflict-gutter-marker conflict-gutter-marker-start">&nbsp;</div>
+    <div class="js-middle conflict-gutter-marker conflict-gutter-marker-middle">&nbsp;</div>
+    <div class="js-end conflict-gutter-marker conflict-gutter-marker-end">&nbsp;</div>
+    <div class="js-line conflict-gutter-marker conflict-gutter-marker-line">&nbsp;</div>
+  </div>
+</div>
+
+  </turbo-frame>
+
+    </main>
+  </div>
+
+  </div>
+
+          <footer class="footer tmp-pt-7 tmp-pb-6 f6 color-fg-muted color-border-subtle p-responsive" role="contentinfo">
+  <h2 class="sr-only">Footer</h2>
+
+  
+
+
+  <div class="d-flex flex-justify-center flex-items-center flex-column-reverse flex-lg-row flex-wrap flex-lg-nowrap">
+    <div class="d-flex flex-items-center flex-shrink-0 mx-2">
+      <a aria-label="GitHub Homepage" class="footer-octicon mr-2" href="https://github.com/">
+        <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-mark-github">
+    <path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"></path>
+</svg>
+</a>
+      <span>
+        © 2026 GitHub,&nbsp;Inc.
+      </span>
+    </div>
+
+    <nav aria-label="Footer">
+      <h3 class="sr-only" id="sr-footer-heading">Footer navigation</h3>
+
+      <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0" aria-labelledby="sr-footer-heading">
+
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Terms&quot;,&quot;label&quot;:&quot;text:terms&quot;}" href="https://docs.github.com/site-policy/github-terms/github-terms-of-service" data-view-component="true" class="Link--secondary Link">Terms</a>
+          </li>
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;}" href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement" data-view-component="true" class="Link--secondary Link">Privacy</a>
+          </li>
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;}" href="https://github.com/security" data-view-component="true" class="Link--secondary Link">Security</a>
+          </li>
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;}" href="https://www.githubstatus.com/" data-view-component="true" class="Link--secondary Link">Status</a>
+          </li>
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to community&quot;,&quot;label&quot;:&quot;text:community&quot;}" href="https://github.community/" data-view-component="true" class="Link--secondary Link">Community</a>
+          </li>
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to docs&quot;,&quot;label&quot;:&quot;text:docs&quot;}" href="https://docs.github.com/" data-view-component="true" class="Link--secondary Link">Docs</a>
+          </li>
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;}" href="https://support.github.com/?tags=dotcom-footer" data-view-component="true" class="Link--secondary Link">Contact</a>
+          </li>
+
+          <li class="mx-2">
+  <cookie-consent-link data-catalyst="">
+    <button type="button" class="Link--secondary underline-on-hover border-0 p-0 color-bg-transparent" data-action="click:cookie-consent-link#showConsentManagement" data-analytics-event="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;cookies&quot;,&quot;context&quot;:&quot;subfooter&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;cookies_link_subfooter_footer&quot;}">
+       Manage cookies
+    </button>
+  </cookie-consent-link>
+</li>
+
+<li class="mx-2">
+  <cookie-consent-link data-catalyst="">
+    <button type="button" class="Link--secondary underline-on-hover border-0 p-0 color-bg-transparent text-left" data-action="click:cookie-consent-link#showConsentManagement" data-analytics-event="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;dont_share_info&quot;,&quot;context&quot;:&quot;subfooter&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;dont_share_info_link_subfooter_footer&quot;}">
+      Do not share my personal information
+    </button>
+  </cookie-consent-link>
+</li>
+
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+
+    <ghcc-consent id="ghcc" class="position-fixed bottom-0 left-0" style="z-index: 999999" data-locale="en" data-initial-cookie-consent-allowed="" data-cookie-consent-required="false" data-catalyst=""></ghcc-consent>
+
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error" hidden="">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+    <template id="site-details-dialog"></template>
+
+    <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box color-shadow-large" style="width:360px;"></div>
+</div>
+
+    <template id="snippet-clipboard-copy-button"></template>
+<template id="snippet-clipboard-copy-button-unpositioned"></template>
+
+
+    <style>
+      .user-mention[href$="/psv1977"] {
+        color: var(--color-user-mention-fg);
+        background-color: var(--bgColor-attention-muted, var(--color-attention-subtle));
+        border-radius: 2px;
+        margin-left: -2px;
+        margin-right: -2px;
+      }
+      .user-mention[href$="/psv1977"]:before,
+      .user-mention[href$="/psv1977"]:after {
+        content: '';
+        display: inline-block;
+        width: 2px;
+      }
+    </style>
+
+
+    </div>
+    <div id="js-global-screen-reader-notice" class="sr-only mt-n1" aria-live="polite" aria-atomic="true"></div>
+    <div id="js-global-screen-reader-notice-assertive" class="sr-only mt-n1" aria-live="assertive" aria-atomic="true"></div>
+  
+
+
+<div class="sr-only mt-n1" id="screenReaderAnnouncementDiv" role="alert" data-testid="screenReaderAnnouncement" aria-live="assertive">Successfully applied both changes.</div></body></html>
