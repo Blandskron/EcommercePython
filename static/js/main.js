@@ -48,3 +48,4 @@ document.addEventListener("DOMContentLoaded", () => {
     // Inicializar contador al cargar
     actualizarContador();
 });
+});
