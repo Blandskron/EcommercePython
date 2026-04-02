@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Pro | Tu Tienda Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/dist/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .hero-section {
+            background: #f8f9fa;
+            padding: 60px 0;
+            text-align: center;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            transition: 0.3s;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #212529;
+            color: white;
+            padding: 40px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">TIENDA<span>LOGO</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Categorías</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Ofertas</a></li>
+                </ul>
+                <form class="d-flex me-3">
+                    <input class="form-control me-2" type="search" placeholder="Buscar productos...">
+                </form>
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#"><i class="fas fa-user"></i> Mi Cuenta</a>
+                    <a class="nav-link position-relative" href="#">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">3</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Nueva Colección 2026</h1>
+            <p class="lead">Descubre la mejor tecnología y diseño en un solo lugar.</p>
+            <a href="#productos" class="btn btn-primary btn-lg">Comprar Ahora</a>
+        </div>
+    </header>
+
+    <main class="container my-5" id="productos">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2>Productos Destacados</h2>
+            <select class="form-select w-auto">
+                <option>Ordenar por: Relevancia</option>
+                <option>Precio: Menor a Mayor</option>
+                <option>Nuevos ingresos</option>
+            </select>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4 col-lg-3">
+                <div class="card h-100 product-card">
+                    <img src="https://via.placeholder.com/300x300" class="card-img-top" alt="Producto">
+                    <div class="card-body">
+                        <h5 class="card-title">Smartphone Ultra X</h5>
+                        <p class="text-muted small">Electrónica</p>
+                        <p class="fw-bold fs-5">$599.990</p>
+                        <button class="btn btn-outline-primary w-100">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <div class="card h-100 product-card">
+                    <img src="https://via.placeholder.com/300x300" class="card-img-top" alt="Producto">
+                    <div class="card-body">
+                        <h5 class="card-title">Auriculares Noise Cancel</h5>
+                        <p class="text-muted small">Audio</p>
+                        <p class="fw-bold fs-5">$129.900</p>
+                        <button class="btn btn-outline-primary w-100">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="bg-light py-5 border-top">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <i class="fas fa-truck fa-2x mb-3 text-primary"></i>
+                    <h5>Envío Gratis</h5>
+                    <p>En compras superiores a $50.000</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-lock fa-2x mb-3 text-primary"></i>
+                    <h5>Pago Seguro</h5>
+                    <p>Tus datos están 100% protegidos</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-undo fa-2x mb-3 text-primary"></i>
+                    <h5>Devolución Fácil</h5>
+                    <p>Hasta 30 días para cambios</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Sobre Nosotros</h5>
+                    <p class="small">Somos líderes en transformación digital y e-commerce de alta calidad.</p>
+                </div>
+                <div class="col-md-2">
+                    <h5>Enlaces</h5>
+                    <ul class="list-unstyled small">
+                        <li><a href="#" class="text-white text-decoration-none">Preguntas Frecuentes</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Políticas de Privacidad</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Términos y Condiciones</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Newsletter</h5>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control form-control-sm" placeholder="Tu email">
+                        <button class="btn btn-primary btn-sm">Unirme</button>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h5>Síguenos</h5>
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center small mb-0">&copy; 2026 Blandskron E-Commerce. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/dist/bootstrap.bundle.min.js"></script>
+</body>
+</html>
