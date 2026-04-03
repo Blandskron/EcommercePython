@@ -1,39 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Carrito | TIENDA PRO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito | TIENDA PRO</title>
 
-<!-- ✅ CSS CORRECTO -->
-<link rel="stylesheet" href="../uxui/CSS/styles.css">
+    <link rel="stylesheet" href="../uxui/CSS/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-<!-- Tailwind -->
-<script src="https://cdn.tailwindcss.com"></script>
-
-<!-- Bootstrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- FontAwesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-<style>
-body {
-    background: #f4f6f8;
-    font-family: 'Segoe UI', sans-serif;
-}
-
-.cart-item {
-    border-radius: 14px;
-    transition: 0.3s;
-}
-
-.cart-item:hover {
-    transform: scale(1.01);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
-</style>
-
+    <style>
+        body {
+            background: #f4f6f8;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .cart-item {
+            border-radius: 14px;
+            transition: 0.3s;
+        }
+        .cart-item:hover {
+            transform: scale(1.01);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+    </style>
 </head>
 <body>
 
@@ -45,7 +35,6 @@ body {
             TIENDA<span class="text-primary">PRO</span>
         </span>
 
-        <!-- ✅ VOLVER A INDEX -->
         <div class="d-flex gap-3">
             <a href="../uxui/index.html" class="text-white text-decoration-none">Inicio</a>
         </div>
@@ -58,28 +47,37 @@ body {
 </nav>
 
 <!-- CONTENIDO -->
-<main class="max-w-5xl mx-auto px-4 py-10">
+<main class="container py-5">
 
-<h1 class="text-3xl font-bold mb-6">🛒 Tu Carrito</h1>
+    <h1 class="fw-bold mb-4">🛒 Tu Carrito</h1>
 
-<!-- 🔥 AQUÍ SE RENDERIZA TODO -->
-<div id="carrito"></div>
+    <!-- Aquí se renderizan los productos -->
+    <div id="carrito"></div>
 
-<div class="bg-white p-5 rounded mt-5 shadow text-end">
-    <h2 id="total" class="text-xl fw-bold">Total: $0</h2>
-
-    <button id="pagarBtn" class="btn btn-primary mt-3">
-        Pagar ahora
-    </button>
-</div>
+    <div class="bg-white p-4 rounded mt-4 shadow text-end">
+        <h2 id="total" class="fw-bold fs-5">Total: $0</h2>
+        <button id="pagarBtn" class="btn btn-primary mt-3">
+            Pagar ahora
+        </button>
+    </div>
 
 </main>
 
-<!-- ✅ JS CORRECTO -->
-<script src="../static/js/carrito.js"></script>
+<!-- FOOTER -->
+<footer class="footer">
+    <h3 class="footer-titulo">TIENDA<span style="color:#3b82f6">PRO</span></h3>
+    <p class="footer-texto">Tecnología premium con diseño moderno</p>
+    <div class="footer-links">
+        <a href="../uxui/index.html">Inicio</a>
+        <a href="#">Quiénes somos</a>
+        <a href="#">Productos</a>
+    </div>
+    <p class="footer-copy">© 2026 E-Commerce Pro</p>
+</footer>
 
-<!-- Bootstrap -->
+<!-- ✅ Bootstrap JS primero, luego carrito.js -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../static/js/carrito.js"></script>
 
 </body>
 </html>
